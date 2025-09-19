@@ -1,0 +1,43 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="uv_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#1a2533" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="uv_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <pattern id="binaryPattern" patternUnits="userSpaceOnUse" width="100" height="100" >
+            <text font-family="monospace" font-size="10" fill="#1e293b">
+                <tspan x="0" y="10">01010011</tspan><tspan x="0" y="20">11101010</tspan>
+                <tspan x="0" y="30">00101101</tspan><tspan x="0" y="40">10110101</tspan>
+                <tspan x="0" y="50">01110010</tspan><tspan x="0" y="60">10010100</tspan>
+                <tspan x="0" y="70">11011011</tspan><tspan x="0" y="80">01001100</tspan>
+                <tspan x="0" y="90">10101110</tspan><tspan x="0" y="100">00110011</tspan>
+            </text>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#uv_bg)" />
+    <rect width="900" height="383" fill="url(#binaryPattern)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="42" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        Python 100倍速革命
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        终极工具 `uv` 全面指南
+    </text>
+    
+    <!-- UV Logo with Lightning -->
+    <g transform="translate(450, 191.5)" text-anchor="middle">
+        <path d="M -20 -80 L 40 0 L 0 0 L 60 80 L -40 0 L 0 0 L -60 -80 Z" fill="#0ea5e9" filter="url(#uv_glow)"/>
+        <text x="-90" y="35" font-size="120" font-weight="900" fill="white">U</text>
+        <text x="90" y="35" font-size="120" font-weight="900" fill="white">V</text>
+    </g>
+</svg>

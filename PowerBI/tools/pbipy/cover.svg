@@ -1,0 +1,44 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="bridge-bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#1a2533" />
+        </radialGradient>
+        <filter id="icon-glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <linearGradient id="bridge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#3776AB" />
+            <stop offset="40%" stop-color="#60a5fa" />
+            <stop offset="60%" stop-color="#fcd34d" />
+            <stop offset="100%" stop-color="#F2C811" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#bridge-bg)" />
+
+    <!-- Central Title -->
+    <text x="450" y="80" font-size="72" font-weight="900" text-anchor="middle" fill="#f1f5f9">pbipy</text>
+    <text x="450" y="125" font-size="28" text-anchor="middle" fill="#94a3b8">Pythonic Power BI 自动化终极利器</text>
+
+    <!-- Python Logo -->
+    <g transform="translate(180, 230)" filter="url(#icon-glow)">
+        <path d="M-30,-50 A30,30 0 0,1 0,-80 A30,30 0 0,1 30,-50 L30,-35 L10,-35 L10,-50 A10,10 0 0,0 0,-60 A10,10 0 0,0 -10,-50 L-10,10 L10,10 L10,25 L-30,25 Z" fill="#3776AB"/>
+        <path d="M30,50 A30,30 0 0,1 0,80 A30,30 0 0,1 -30,50 L-30,35 L-10,35 L-10,50 A10,10 0 0,0 0,60 A10,10 0 0,0 10,50 L10,-10 L-10,-10 L-10,-25 L30,-25 Z" fill="#FFD43B"/>
+    </g>
+
+    <!-- Power BI Logo -->
+    <g transform="translate(720, 230)" filter="url(#icon-glow)">
+        <path d="M-40 -40 L-40 40 L-25 40 L-25 -5 C-25 -20 0 -20 0 -20 C20 -20 20 -30 20 -40 Z M-15 0 L-15 40 L0 40 L0 0 Z M10 0 L10 40 L25 40 L25 0 Z M35 -40 L35 40 L50 40 L50 -40 Z" fill="#F2C811" />
+    </g>
+
+    <!-- The Bridge -->
+    <path d="M 250 230 C 350 180, 550 180, 650 230" stroke="url(#bridge-grad)" stroke-width="6" fill="none" stroke-linecap="round" filter="url(#icon-glow)"/>
+    <text x="450" y="235" font-size="18" fill="#fff" text-anchor="middle">REST API</text>
+
+</svg>

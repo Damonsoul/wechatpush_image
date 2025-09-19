@@ -1,0 +1,50 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="kpi_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#1a2533" />
+        </radialGradient>
+        <filter id="kpi_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#kpi_bg)" />
+    <path d="M0 128 L900 128 M0 256 L900 256 M150 0 L150 383 M300 0 L300 383 M450 0 L450 383 M600 0 L600 383 M750 0 L750 383" stroke="#34495e" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        Power BI 可视化工具箱 (三)
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        告别单调数字：原生 KPI 卡片十八般武艺
+    </text>
+    
+    <!-- KPI Elements -->
+    <g filter="url(#kpi_glow)">
+        <!-- Card 1 -->
+        <rect x="80" y="150" width="180" height="100" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+        <text x="170" y="185" font-size="36" font-weight="bold" text-anchor="middle" fill="#2ecc71">↑ 8.2M</text>
+        <text x="170" y="220" font-size="14" text-anchor="middle" fill="#94a3b8">Total Sales</text>
+
+        <!-- Card 2 -->
+        <rect x="300" y="150" width="120" height="100" rx="10" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+        <text x="360" y="195" font-size="48" font-weight="bold" text-anchor="middle" fill="#e74c3c">✖️</text>
+        <text x="360" y="225" font-size="12" text-anchor="middle" fill="#94a3b8">Data Refresh</text>
+        
+        <!-- Card 3 -->
+        <rect x="450" y="150" width="180" height="100" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+        <path d="M 480 220 L 510 190 L 540 210 L 570 180 L 600 200" stroke="#3498db" stroke-width="2.5" fill="none"/>
+        <text x="540" y="180" font-size="24" text-anchor="middle" fill="white">75%</text>
+
+        <!-- Card 4 -->
+        <rect x="660" y="150" width="160" height="100" rx="10" fill="#1e293b" stroke="#94a3b8" stroke-width="1"/>
+        <text x="740" y="195" font-size="24" font-weight="bold" text-anchor="middle" fill="#f1c40f">★★★★☆</text>
+        <text x="740" y="225" font-size="12" text-anchor="middle" fill="#94a3b8">Rating</text>
+    </g>
+</svg>

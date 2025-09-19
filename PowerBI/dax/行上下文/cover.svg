@@ -1,0 +1,62 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="background-color:#0f0c29;">
+  <defs>
+    <linearGradient id="vibrant-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24243e" />
+      <stop offset="50%" stop-color="#302b63" />
+      <stop offset="100%" stop-color="#0f0c29" />
+    </linearGradient>
+    <filter id="title-neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#f09" flood-opacity="0.8" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="subtitle-neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0ff" flood-opacity="1" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font-family: 'Arial Black', 'Impact', 'Microsoft YaHei', sans-serif; font-size: 86px; font-weight: 900; fill: #fff; text-anchor: middle; letter-spacing: -2px;}
+      .subtitle { font-family: 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif; font-size: 32px; font-weight: 300; fill: #fff; text-anchor: middle; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="900" height="383" fill="url(#vibrant-grad)" />
+
+  <!-- Geometric Elements -->
+  <g opacity="0.4" stroke-width="2">
+    <!-- Concentric Circles -->
+    <circle cx="100" cy="100" r="80" stroke="#f09" fill="none" opacity="0.5" stroke-dasharray="5 5" />
+    <circle cx="100" cy="100" r="60" stroke="#f09" fill="none" opacity="0.7" />
+    
+    <!-- Lines and Grid -->
+    <path d="M 650 0 L 900 383" stroke="#0ff" opacity="0.6" />
+    <path d="M 750 0 L 900 250" stroke="#0ff" opacity="0.4" />
+    <path d="M 0 300 L 250 383" stroke="#f09" opacity="0.5" />
+    
+    <!-- Triangle -->
+    <polygon points="800,300 850,383 750,383" stroke="#fff" fill="rgba(255,255,255,0.1)" stroke-width="1.5" />
+    
+    <!-- Plus Signs -->
+    <text x="850" y="80" fill="#0ff" font-size="30" font-weight="bold" opacity="0.7">+</text>
+    <text x="50" y="350" fill="#f09" font-size="40" font-weight="bold" opacity="0.6" transform="rotate(-30, 50, 350)">+</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(450, 188)" filter="url(#title-neon)">
+    <text class="title">DAX 行上下文</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <g transform="translate(450, 265)" filter="url(#subtitle-neon)">
+    <text class="subtitle">从入门到精通的实战秘籍</text>
+  </g>
+</svg>

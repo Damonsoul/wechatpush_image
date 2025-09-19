@@ -1,0 +1,39 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <!-- Background -->
+    <defs>
+        <radialGradient id="dark_grad" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#1a2533" />
+        </radialGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <rect width="900" height="383" fill="url(#dark_grad)" />
+
+    <!-- Grid lines -->
+    <path d="M0 100 L900 100 M0 283 L900 283 M150 0 L150 383 M750 0 L750 383" stroke="#34495e" stroke-width="1" stroke-opacity="0.5"/>
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        告别 Anaconda！10分钟搭建终极数据科学环境
+    </text>
+
+    <!-- Tool Stack -->
+    <g text-anchor="middle" font-size="48" font-weight="600" fill="#fff" filter="url(#glow)">
+        <text x="210" y="200" fill="#2ECC71">uv</text>
+        <text x="340" y="200" fill="#e67e22">+</text>
+        <text x="490" y="200" fill="#3498db">Positron</text>
+        <text x="640" y="200" fill="#e67e22">+</text>
+        <text x="750" y="200" fill="#9b59b6">marimo</text>
+    </g>
+    
+    <!-- Subtitle -->
+    <text x="450" y="280" font-size="20" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        2025 年的最新、最快、最优解
+    </text>
+</svg>
