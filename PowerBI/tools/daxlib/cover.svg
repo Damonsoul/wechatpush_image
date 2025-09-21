@@ -1,0 +1,52 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="lib_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="lib_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <pattern id="codePattern" patternUnits="userSpaceOnUse" width="150" height="200" patternTransform="rotate(15)">
+            <text font-family="monospace" font-size="12" fill="#1e293b" opacity="0.8">
+                <tspan x="0" y="20">FUNCTION Fmt = (v)</tspan>
+                <tspan x="0" y="40">VAR R = ...</tspan>
+                <tspan x="0" y="60">RETURN IF(</tspan>
+                <tspan x="0" y="80">DEFINE</tspan>
+                <tspan x="0" y="100">EVALUATE</tspan>
+                <tspan x="0" y="120">CALCULATE()</tspan>
+                <tspan x="0" y="140">SUMX()</tspan>
+            </text>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#lib_bg)" />
+    <rect width="900" height="383" fill="url(#codePattern)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="42" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        DAX 迎来“包管理”时代
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        DAX Lib 横空出世，告别重复造轮子
+    </text>
+    
+    <!-- Central Icon -->
+    <g transform="translate(450, 191.5)" filter="url(#lib_glow)">
+        <!-- Box icon -->
+        <path d="M-80 -60 L-80 60 L80 60 L80 -60 Z M-80 0 L80 0 M0 -60 L0 60" fill="none" stroke="#0ea5e9" stroke-width="4"/>
+        <path d="M-80 -40 L-40 -40 L-40 -20 L-80 -20 Z" fill="#3b82f6" opacity="0.8"/>
+        <path d="M-30 -40 L10 -40 L10 -20 L-30 -20 Z" fill="#3b82f6" opacity="0.8"/>
+        
+        <!-- DAX Symbol -->
+        <g transform="translate(45, 0)">
+            <rect x="-25" y="-30" width="50" height="60" rx="5" fill="#1e293b" stroke="#fcd34d" stroke-width="2"/>
+            <text x="0" y="15" font-size="40" font-weight="bold" text-anchor="middle" fill="#fcd34d">[M]</text>
+        </g>
+    </g>
+</svg>
