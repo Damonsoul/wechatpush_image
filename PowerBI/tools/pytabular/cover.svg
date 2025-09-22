@@ -1,0 +1,49 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="pytab_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="pytab_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <linearGradient id="api_link" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#3776AB"/>
+            <stop offset="100%" stop-color="#FFD43B"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#pytab_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        当 Power BI 遇上 Python “魔法”
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        PyTabular: 自动化你的表格模型
+    </text>
+    
+    <!-- Central Elements -->
+    <g transform="translate(450, 191.5)" filter="url(#pytab_glow)">
+        <!-- Python Logo -->
+        <g transform="translate(-200, 0)">
+            <path d="M-30,-50 A30,30 0 0,1 0,-80 A30,30 0 0,1 30,-50 L30,-35 L10,-35 L10,-50 A10,10 0 0,0 0,-60 A10,10 0 0,0 -10,-50 L-10,10 L10,10 L10,25 L-30,25 Z" fill="#3776AB"/>
+            <path d="M30,50 A30,30 0 0,1 0,80 A30,30 0 0,1 -30,50 L-30,35 L-10,35 L-10,50 A10,10 0 0,0 0,60 A10,10 0 0,0 10,50 L10,-10 L-10,-10 L-10,-25 L30,-25 Z" fill="#FFD43B"/>
+        </g>
+
+        <!-- Tabular Model Icon -->
+        <g transform="translate(200, 0)">
+            <path d="M-50 -60 L50 -60 L50 60 L-50 60 Z" fill="#1e293b" stroke="white" stroke-width="3"/>
+            <path d="M-50 -20 L50 -20 M-50 20 L50 20 M0 -60 L0 60" stroke="#475569" stroke-width="2"/>
+        </g>
+        
+        <!-- API Link -->
+        <path d="M -130 0 C -50 -50, 50 -50, 130 0" stroke="url(#api_link)" stroke-width="4" fill="none"/>
+        <path d="M -130 0 C -50 50, 50 50, 130 0" stroke="url(#api_link)" stroke-width="4" fill="none" opacity="0.6"/>
+    </g>
+</svg>
