@@ -1,0 +1,60 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="planet_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#1a2533" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="planet_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="text_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#planet_bg)" />
+    <!-- Starfield -->
+    <circle cx="100" cy="50" r="1" fill="white" opacity="0.8"/>
+    <circle cx="800" cy="300" r="1.5" fill="white" opacity="0.9"/>
+    <circle cx="50" cy="250" r="1" fill="white" opacity="0.7"/>
+    <circle cx="850" cy="100" r="1" fill="white" opacity="0.8"/>
+    <circle cx="450" cy="350" r="1.2" fill="white" opacity="0.9"/>
+    <circle cx="200" cy="320" r="1" fill="white" opacity="0.6"/>
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        受够了内卷？来我的“武器库”坐坐
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        不止BI知识星球，今日启航
+    </text>
+    
+    <!-- Central Planet -->
+    <g transform="translate(450, 191.5)" filter="url(#planet_glow)">
+        <circle cx="0" cy="0" r="100" fill="#0ea5e9" fill-opacity="0.3"/>
+        <circle cx="0" cy="0" r="90" fill="url(#planet_bg)"/>
+    </g>
+    
+    <!-- Planet Surface Details -->
+    <g transform="translate(450, 191.5)" text-anchor="middle" fill="white" opacity="0.7" filter="url(#text_glow)">
+        <text x="0" y="5" font-size="40" font-weight="bold" fill="#fcd34d">[M]</text>
+        <text x="-45" y="-30" font-size="20" font-family="monospace">Python</text>
+        <text x="50" y="-35" font-size="24" font-weight="bold">R</text>
+        <text x="-50" y="45" font-size="18" font-family="monospace">PBI</text>
+        <text x="40" y="50" font-size="16" font-family="monospace">CLI</text>
+    </g>
+
+    <!-- Invitation Ramp -->
+    <path d="M 850 383 L 550 230" stroke="url(#planet_bg)" stroke-width="20"/>
+    <path d="M 850 383 L 550 230" stroke="#fcd34d" stroke-width="4" stroke-dasharray="10 5"/>
+
+</svg>
