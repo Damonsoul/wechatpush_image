@@ -1,0 +1,66 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="thanks_bg_v2" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#1e293b" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="thanks_glow_v2">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#thanks_bg_v2)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        感谢你，让它变得更好
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        日期切片器迎来重要更新
+    </text>
+    
+    <!-- Central Elements -->
+    <g transform="translate(450, 191.5)">
+        <!-- Date Slicer UI -->
+        <g>
+            <rect x="-220" y="-60" width="440" height="120" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="-180" y="-25" font-size="16" fill="#94a3b8">开始日期</text>
+            <rect x="-185" y="0" width="140" height="40" rx="5" fill="#0f172a"/>
+            <text x="-115" y="28" font-size="18" fill="white" text-anchor="middle">2025-01-01</text>
+            
+            <text x="0" y="-25" font-size="16" fill="#94a3b8">结束日期</text>
+            <rect x="-5" y="0" width="140" height="40" rx="5" fill="#0f172a"/>
+            <text x="65" y="28" font-size="18" fill="white" text-anchor="middle">2025-09-27</text>
+            
+            <!-- The new RESET button at TOP RIGHT -->
+            <g transform="translate(165, -45)">
+                 <rect x="0" y="0" width="40" height="40" rx="20" fill="#2dd4bf" filter="url(#thanks_glow_v2)"/>
+                 <g transform="translate(8, 8)">
+                    <path d="M 12 12 A 8 8 0 1 1 12 4 L 12 7" stroke="white" stroke-width="3" fill="none"/>
+                    <path d="M 12 7 L 8 11 L 16 11 Z" fill="white"/>
+                 </g>
+            </g>
+        </g>
+        
+        <!-- Community Interaction Icons -->
+        <g opacity="0.7">
+            <!-- Speech bubble from "天蓝色眸子" -->
+            <g transform="translate(-290, -30) rotate(-15)">
+                <path d="M0 0 H80 V40 H20 L0 60 V0 Z" fill="#3b82f6"/>
+                <text x="40" y="25" font-size="14" text-anchor="middle" fill="white">修复 1970 Bug!</text>
+            </g>
+             <!-- Heart Icon (Thanks) -->
+            <path d="M 290 -40 C 270 -60, 240 -50, 240 -30 C 240 -10, 270 20, 290 40 C 310 20, 340 -10, 340 -30 C 340 -50, 310 -60, 290 -40 Z" fill="#e11d48"/>
+        </g>
+        
+        <!-- Wrench Icon (Optimization) -->
+        <g transform="translate(260, 60) rotate(30)" filter="url(#thanks_glow_v2)">
+            <path d="M0 0 L10 0 L15 5 L15 15 L5 25 L0 20 Z M30 10 L40 10 C45 10 45 15 40 15 L30 15 C25 15 25 10 30 10 Z" fill="#f59e0b"/>
+        </g>
+    </g>
+</svg>
