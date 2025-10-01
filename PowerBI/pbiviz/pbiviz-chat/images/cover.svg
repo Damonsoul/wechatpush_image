@@ -1,0 +1,61 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="robot_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="robot_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#robot_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        你已经是一个成熟的报表了
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        要学会自己分析数据
+    </text>
+    
+    <!-- Central Robot -->
+    <g transform="translate(450, 191.5)">
+        <!-- Body (Report Screen) -->
+        <rect x="-100" y="-70" width="200" height="140" rx="10" fill="#f1f5f9"/>
+        <rect x="-90" y="-60" width="180" height="120" fill="#ffffff"/>
+        <!-- Chart inside screen -->
+        <g fill="#3b82f6">
+            <rect x="-70" y="-20" width="20" height="50"/>
+            <rect x="-40" y="0" width="20" height="30"/>
+            <rect x="-10" y="-30" width="20" height="60"/>
+        </g>
+        <line x1="-90" y1="30" x2="90" y2="30" stroke="#e2e8f0" stroke-width="3"/>
+        
+        <!-- Head/Brain -->
+        <g transform="translate(0, -90)">
+            <circle cx="0" cy="0" r="25" fill="#1e293b" stroke="#0ea5e9" stroke-width="3"/>
+            <path d="M-10 0 Q 0 -10 10 0 M-8 5 Q 0 -5 8 5" fill="none" stroke="#5eead4" stroke-width="2" filter="url(#robot_glow)"/>
+        </g>
+        
+        <!-- Arm with Magnifying Glass -->
+        <g transform="translate(110, -30)">
+            <!-- Arm -->
+            <path d="M 0 0 C 30 0, 40 -40, 70 -40" fill="none" stroke="#94a3b8" stroke-width="8"/>
+            <!-- Magnifying Glass -->
+            <g transform="translate(70, -40)" filter="url(#robot_glow)">
+                <circle cx="15" cy="15" r="20" fill="none" stroke="#fcd34d" stroke-width="5"/>
+                <line x1="30" y1="30" x2="45" y2="45" stroke="#fcd34d" stroke-width="5"/>
+            </g>
+        </g>
+        
+        <!-- Legs -->
+        <rect x="-50" y="70" width="20" height="30" fill="#94a3b8"/>
+        <rect x="30" y="70" width="20" height="30" fill="#94a3b8"/>
+    </g>
+</svg>
