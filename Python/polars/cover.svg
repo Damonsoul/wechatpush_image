@@ -1,0 +1,43 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="polars_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="polars_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#polars_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        Pandas 终结者？
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        新一代数据框王者 Polars 全面指南
+    </text>
+    
+    <!-- Central Polar Bear Icon -->
+    <g transform="translate(450, 191.5)" filter="url(#polars_glow)">
+        <!-- Bear head outline -->
+        <path d="M0 -80 C 50 -80, 80 -50, 80 0 C 80 50, 50 80, 0 80 C -50 80, -80 50, -80 0 C -80 -50, -50 -80, 0 -80 Z" fill="#1e293b" stroke="#0ea5e9" stroke-width="3"/>
+        <!-- Ears -->
+        <circle cx="-60" cy="-60" r="20" fill="#1e293b" stroke="#0ea5e9" stroke-width="3"/>
+        <circle cx="60" cy="-60" r="20" fill="#1e293b" stroke="#0ea5e9" stroke-width="3"/>
+        <!-- Muzzle -->
+        <path d="M0 20 C 20 20, 35 40, 35 60 L -35 60 C -35 40, -20 20, 0 20 Z" fill="#334155"/>
+        <circle cx="0" cy="20" r="10" fill="white"/>
+        <!-- Eyes -->
+        <circle cx="-30" cy="-10" r="8" fill="#5eead4"/>
+        <circle cx="30" cy="-10" r="8" fill="#5eead4"/>
+        <!-- Circuit lines -->
+        <path d="M0 -40 L 0 -20 M-15 -30 L 15 -30 M-40 20 L -20 40 L 20 40 L 40 20" fill="none" stroke="#5eead4" stroke-width="1.5" opacity="0.7"/>
+    </g>
+</svg>
