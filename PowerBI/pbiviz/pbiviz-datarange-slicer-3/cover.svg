@@ -1,0 +1,64 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="slicer_bg_clean" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="slicer_glow_clean">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#slicer_bg_clean)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        你的日期切片器，本可以更“聪明”
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        智能日期切片器 v1.0.0.2 重磅更新！
+    </text>
+    
+    <!-- Central Slicer UI -->
+    <g transform="translate(450, 191.5)">
+        <!-- Main Panel -->
+        <rect x="-250" y="-80" width="500" height="160" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        
+        <!-- Date Inputs -->
+        <rect x="-220" y="-50" width="180" height="40" rx="5" fill="#334155"/>
+        <text x="-130" y="-25" font-size="18" fill="white" text-anchor="middle">2025-10-25</text>
+        <text x="0" y="-25" font-size="18" fill="#94a3b8">—</text>
+        <rect x="30" y="-50" width="180" height="40" rx="5" fill="#334155"/>
+        <text x="120" y="-25" font-size="18" fill="white" text-anchor="middle">2025-10-26</text>
+
+        <!-- Quick Pick Buttons (Reordered) -->
+        <g text-anchor="middle" font-size="14" fill="#e2e8f0">
+            <!-- 昨日 (FOCUSED) -->
+            <g filter="url(#slicer_glow_clean)">
+                <rect x="-220" y="20" width="80" height="30" rx="5" fill="#0ea5e9"/>
+                <text x="-180" y="40" fill="white" font-weight="bold">昨日</text>
+            </g>
+            
+            <!-- 本周 -->
+            <rect x="-130" y="20" width="80" height="30" rx="5" fill="#334155"/>
+            <text x="-90" y="40">本周</text>
+            
+            <!-- 本月 -->
+            <rect x="-40" y="20" width="80" height="30" rx="5" fill="#334155"/>
+            <text x="0" y="40">本月</text>
+            
+            <!-- 本季 -->
+            <rect x="50" y="20" width="80" height="30" rx="5" fill="#334155"/>
+            <text x="90" y="40">本季</text>
+
+            <!-- 本年 -->
+            <rect x="140" y="20" width="80" height="30" rx="5" fill="#334155"/>
+            <text x="180" y="40">本年</text>
+        </g>
+    </g>
+</svg>
