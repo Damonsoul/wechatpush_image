@@ -1,0 +1,55 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="duel_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="duel_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <linearGradient id="vs_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fcd34d"/>
+            <stop offset="100%" stop-color="#ef4444"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#duel_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        SQL vs R vs Python
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        数据操作终极对决，到底谁是王者？
+    </text>
+    
+    <!-- Central Elements -->
+    <g transform="translate(450, 191.5)" text-anchor="middle">
+        <!-- R / Python Side -->
+        <g transform="translate(-180, 0)">
+            <text font-family="monospace" font-size="120" font-weight="900" fill="#3b82f6" opacity="0.8">
+                <tspan x="0" y="-10">&gt;</tspan>
+                <tspan x="0" y="40">/</tspan>
+            </text>
+            <text y="80" font-size="24" font-weight="bold" fill="#3b82f6">R &amp; Python</text>
+        </g>
+
+        <!-- SQL Side -->
+        <g transform="translate(180, 0)">
+             <g font-size="100" font-weight="900" fill="#2dd4bf" opacity="0.8">
+                <ellipse cx="0" cy="-20" rx="40" ry="20"/>
+                <path d="M-40 -20 L-40 20 C-40 40, 40 40, 40 20 L40 -20 Z"/>
+                <ellipse cx="0" cy="20" rx="40" ry="20" fill="none" stroke="#2dd4bf" stroke-width="8"/>
+             </g>
+             <text y="80" font-size="24" font-weight="bold" fill="#2dd4bf">SQL</text>
+        </g>
+        
+        <!-- VS Lightning Bolt -->
+        <path d="M -40 -80 L 10 0 L -20 0 L 40 80 L -10 0 L 20 0 L -40 -80 Z" fill="url(#vs_grad)" filter="url(#duel_glow)"/>
+    </g>
+</svg>
