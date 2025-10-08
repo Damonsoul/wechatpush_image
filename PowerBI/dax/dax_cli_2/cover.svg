@@ -1,0 +1,50 @@
+<svg width="900" height="383" viewBox="0 0 900" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="cli_pro_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="cli_pro_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#cli_pro_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        DAX-CLI 重大进化：从命令行到图形界面
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        重塑你的 DAX 函数库工作流
+    </text>
+    
+    <!-- Central UI Window -->
+    <g transform="translate(450, 191.5)">
+        <rect x="-300" y="-80" width="600" height="160" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        <!-- Window Header -->
+        <rect x="-300" y="-80" width="600" height="30" rx="10" ry="10" fill="#334155"/>
+        <circle cx="-280" cy="-65" r="6" fill="#ef4444"/>
+        <circle cx="-260" cy="-65" r="6" fill="#f59e0b"/>
+        <circle cx="-240" cy="-65" r="6" fill="#22c55e"/>
+
+        <!-- GUI Elements -->
+        <rect x="-280" y="-30" width="120" height="100" fill="#334155" rx="5"/>
+        <text x="-220" y="-10" font-size="12" fill="white" text-anchor="middle">函数库列表</text>
+        <rect x="-270" y="10" width="100" height="15" fill="#475569" rx="3"/>
+        <rect x="-270" y="35" width="100" height="15" fill="#475569" rx="3"/>
+
+        <!-- Command Line -->
+        <g transform="translate(50, 20)" font-family="monospace" font-size="28" text-anchor="start">
+            <text x="-280" y="0" fill="#a0a0a0">❯</text>
+            <g filter="url(#cli_pro_glow)">
+                <text x="-250" y="0" fill="#5eead4" font-weight="bold">dax ui</text>
+            </g>
+        </g>
+    </g>
+</svg>
