@@ -1,0 +1,55 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="storm_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#1e3a8a" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="storm_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#storm_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="80" font-size="38" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        10 秒，为你的 Power BI 添加 200+ DAX 函数
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        DAX-CLI 图形界面，颠覆你的开发效率
+    </text>
+    
+    <!-- Central Elements -->
+    <g transform="translate(450, 191.5)" text-anchor="middle">
+        <!-- 10s Timer -->
+        <g transform="translate(-150, 0)">
+            <text font-family="monospace" font-size="120" font-weight="900" fill="#fcd34d" filter="url(#storm_glow)">10s</text>
+        </g>
+
+        <!-- Power BI Logo -->
+        <g transform="translate(250, 0)">
+             <path d="M-40 -40 L-40 40 L-25 40 L-25 -5 C-25 -20 0 -20 0 -20 C20 -20 20 -30 20 -40 Z M-15 0 L-15 40 L0 40 L0 0 Z M10 0 L10 40 L25 40 L25 0 Z M35 -40 L35 40 L50 40 L50 -40 Z" fill="#F2C811" />
+        </g>
+        
+        <!-- Function Storm -->
+        <g font-size="24" font-weight="bold" fill="#5eead4" opacity="0.7" filter="url(#storm_glow)">
+            <text x="-50" y="-50" transform="rotate(-15)">[M]</text>
+            <text x="0" y="-70" transform="rotate(10)">[M]</text>
+            <text x="50" y="-40" transform="rotate(25)">[M]</text>
+            <text x="-20" y="0" transform="rotate(-5)">[M]</text>
+            <text x="80" y="10">[M]</text>
+            <text x="-70" y="50" transform="rotate(-20)">[M]</text>
+            <text x="30" y="60" transform="rotate(15)">[M]</text>
+            <text x="120" y="50">[M]</text>
+        </g>
+        
+        <!-- Arrow lines -->
+        <path d="M -80 0 L 180 0" fill="none" stroke="white" stroke-width="3" stroke-dasharray="10 5" opacity="0.5"/>
+
+    </g>
+</svg>
