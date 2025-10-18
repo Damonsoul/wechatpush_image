@@ -1,63 +1,51 @@
 <svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
     <defs>
-        <!-- 淡雅的渐变背景 -->
-        <linearGradient id="light_bg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#f8f9fa"/>
-            <stop offset="100%" stop-color="#e9ecef"/>
-        </linearGradient>
-        <!-- 噪点纹理 -->
-        <filter id="noise">
-            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
-            <feColorMatrix type="saturate" values="0"/>
-            <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
-            <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" result="screenNoise"/>
-            <feComponentTransfer in="screenNoise" result="screenNoise2">
-                <feFuncA type="linear" slope="0.05"/>
-            </feComponentTransfer>
+        <radialGradient id="pro_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2d3748" />
+            <stop offset="100%" stop-color="#1a202c" />
+        </radialGradient>
+        <filter id="pro_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
         </filter>
     </defs>
 
-    <!-- 背景 -->
-    <rect width="900" height="383" fill="url(#light_bg)" />
-    <rect width="900" height="383" filter="url(#noise)" opacity="0.5" />
-    
-    <!-- 中文主副标题 -->
-    <text x="450" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="#212529">
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#pro_bg)" />
+    <!-- Subtle Grid -->
+    <path d="M0 191.5 L900 191.5 M450 0 L450 383" stroke="#4a5568" stroke-width="1" opacity="0.2"/>
+
+    <!-- Main Title -->
+    <text x="450" y="70" font-size="30" font-weight="300" text-anchor="middle" fill="#e2e8f0" letter-spacing="1">
         深入解析 Power BI 格式化层级与语法陷阱
     </text>
-    <text x="450" y="340" font-size="18" text-anchor="middle" fill="#6c757d">
+    <text x="450" y="330" font-size="18" text-anchor="middle" fill="#a0aec0">
         一个设置，体现你的专业性
     </text>
-
-    <!-- 中心大写主题 -->
-    <text x="450" y="215" font-size="120" font-weight="900" text-anchor="middle" fill="#343a40" letter-spacing="-5">
-        FORMAT
-    </text>
     
-    <!-- 四周点缀图标 -->
-    <g fill="none" stroke="#adb5bd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <!-- Top-Left: 日期符号 (d, m, y) -->
-        <g transform="translate(80, 80)">
-            <circle cx="0" cy="0" r="25"/>
-            <text x="0" y="8" font-size="20" font-family="monospace" fill="#adb5bd" text-anchor="middle">d/m/y</text>
-        </g>
+    <!-- Central Transformation Flow -->
+    <g font-family="Menlo, Monaco, Consolas, 'Courier New', monospace" font-size="28" text-anchor="middle">
+        <!-- Input -->
+        <text x="200" y="195" fill="#718096">12345.6789</text>
         
-        <!-- Top-Right: 数字符号 (#, 0, %) -->
-        <g transform="translate(820, 80)">
-            <rect x="-25" y="-25" width="50" height="50" rx="5" transform="rotate(45)"/>
-            <text x="0" y="8" font-size="20" font-family="monospace" fill="#adb5bd" text-anchor="middle">#,0.%</text>
-        </g>
-        
-        <!-- Bottom-Left: 层级符号 (Model, Visual, Element) -->
-        <g transform="translate(80, 300)">
-            <path d="M0 -25 L25 0 L0 25 L-25 0 Z"/>
-            <path d="M0 -15 L15 0 L0 15 L-15 0 Z" stroke-width="2"/>
-        </g>
+        <!-- Output -->
+        <text x="700" y="195" fill="#4ade80" font-weight="bold">12,345.68 元</text>
 
-        <!-- Bottom-Right: 单位符号 (K, M, B) -->
-        <g transform="translate(820, 300)">
-            <path d="M-25 -25 L25 -25 L0 25 Z"/>
-            <text x="0" y="10" font-size="12" fill="#adb5bd" text-anchor="middle">K/M/B</text>
+        <!-- Arrows -->
+        <g fill="none" stroke="#4a5568" stroke-width="2">
+            <path d="M300 191.5 H 380"/>
+            <path d="M370 186.5 L 380 191.5 L 370 196.5" stroke-width="2.5"/>
+            <path d="M520 191.5 H 600"/>
+            <path d="M590 186.5 L 600 191.5 L 590 196.5" stroke-width="2.5"/>
+        </g>
+        
+        <!-- FORMAT Block -->
+        <g transform="translate(450, 191.5)" filter="url(#pro_glow)">
+            <rect x="-50" y="-30" width="100" height="60" rx="8" fill="#1a202c" stroke="#4ade80" stroke-width="2"/>
+            <text y="8" font-size="24" font-weight="bold" fill="#4ade80">FORMAT</text>
         </g>
     </g>
 </svg>

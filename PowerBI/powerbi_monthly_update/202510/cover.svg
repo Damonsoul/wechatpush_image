@@ -1,0 +1,46 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="checklist_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="checklist_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#checklist_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="70" font-size="36" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        Power BI 十月更新：又在“挤牙膏”？
+    </text>
+    <text x="450" y="320" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        别慌，我帮你划出了这 3 个真·重点
+    </text>
+    
+    <!-- Central Checklist Icon -->
+    <g transform="translate(450, 191.5)">
+        <!-- Document Body -->
+        <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        <!-- Checklist items -->
+        <g fill="#94a3b8">
+            <rect x="-120" y="-60" width="240" height="8" rx="4"/>
+            <rect x="-120" y="-30" width="240" height="8" rx="4"/>
+            <rect x="-120" y="0" width="240" height="8" rx="4"/>
+            <rect x="-120" y="30" width="240" height="8" rx="4"/>
+            <rect x="-120" y="60" width="180" height="8" rx="4"/>
+        </g>
+        
+        <!-- Highlighter Marks -->
+        <g filter="url(#checklist_glow)">
+            <rect x="-120" y="-32" width="240" height="12" fill="#f59e0b" opacity="0.6" rx="6"/>
+            <rect x="-120" y="28" width="240" height="12" fill="#10b981" opacity="0.6" rx="6"/>
+        </g>
+    </g>
+</svg>
