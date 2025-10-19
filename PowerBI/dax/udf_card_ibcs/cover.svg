@@ -1,0 +1,67 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="ibcs_bg_v3" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="ibcs_glow_v3">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#ibcs_bg_v3)" />
+
+    <!-- Main Title -->
+    <text x="450" y="70" font-size="36" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        一个 DAX 函数，画一个 IBCS 图表
+    </text>
+    <text x="450" y="330" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        我的全新 DAX-SVG"核武器"
+    </text>
+    
+    <!-- Central Chart Element -->
+    <g transform="translate(450, 191.5)" filter="url(#ibcs_glow_v3)">
+        <!-- Card Base -->
+        <rect x="-300" y="-110" width="600" height="220" rx="12" fill="#FFFFFF" fill-opacity="0.95" />
+        
+        <!-- Left Panel (KPIs) -->
+        <g transform="translate(-275, -85)">
+            <text font-size="18" font-weight="600" fill="#18212F">销售额</text>
+            <text y="45" font-size="13" fill="#6A7587">今年</text>
+            <text y="70" font-size="24" font-weight="600" fill="#18212F">1.2亿</text>
+            <text y="100" font-size="13" fill="#6A7587">去年</text>
+            <text y="120" font-size="18" fill="#6A7587">0.8亿</text>
+            <text y="155" font-size="13" fill="#6A7587">同比</text>
+            <text x="35" y="155" font-size="12" fill="#00875A">▲</text>
+            <text x="50" y="155" font-size="15" font-weight="600" fill="#00875A">50.0%</text>
+        </g>
+        
+        <!-- Right Panel (Chart) - REBUILT with corrected positions -->
+        <g transform="translate(-50, -85)">
+            <!-- Axis -->
+            <line x1="0" y1="170" x2="330" y2="170" stroke="#E6E8EB" stroke-width="2"/>
+            
+            <!-- Generate 12 Columns -->
+            <g id="columns">
+                <!-- Data: [PY_Height, AC_Height] -->
+                <g class="month" transform="translate(10, 0)"><rect y="90" width="8" height="80" fill="#B3B3B3"/><rect y="70" width="12" height="100" fill="#000"/><rect x="10" y="70" width="2" height="20" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">1月</text></g>
+                <g class="month" transform="translate(37, 0)"><rect y="110" width="8" height="60" fill="#B3B3B3"/><rect y="120" width="12" height="50" fill="#000"/><rect x="10" y="110" width="2" height="10" fill="#DE350B"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">2月</text></g>
+                <g class="month" transform="translate(64, 0)"><rect y="70" width="8" height="100" fill="#B3B3B3"/><rect y="50" width="12" height="120" fill="#000"/><rect x="10" y="50" width="2" height="20" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">3月</text></g>
+                <g class="month" transform="translate(91, 0)"><rect y="60" width="8" height="110" fill="#B3B3B3"/><rect y="80" width="12" height="90" fill="#000"/><rect x="10" y="60" width="2" height="20" fill="#DE350B"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">4月</text></g>
+                <g class="month" transform="translate(118, 0)"><rect y="100" width="8" height="70" fill="#B3B3B3"/><rect y="90" width="12" height="80" fill="#000"/><rect x="10" y="90" width="2" height="10" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">5月</text></g>
+                <g class="month" transform="translate(145, 0)"><rect y="50" width="8" height="120" fill="#B3B3B3"/><rect y="60" width="12" height="110" fill="#000"/><rect x="10" y="50" width="2" height="10" fill="#DE350B"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">6月</text></g>
+                <g class="month" transform="translate(172, 0)"><rect y="90" width="8" height="80" fill="#B3B3B3"/><rect y="70" width="12" height="100" fill="#000"/><rect x="10" y="70" width="2" height="20" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">7月</text></g>
+                <g class="month" transform="translate(199, 0)"><rect y="30" width="8" height="140" fill="#B3B3B3"/><rect y="40" width="12" height="130" fill="#000"/><rect x="10" y="30" width="2" height="10" fill="#DE350B"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">8月</text></g>
+                <g class="month" transform="translate(226, 0)"><rect y="80" width="8" height="90" fill="#B3B3B3"/><rect y="70" width="12" height="100" fill="#000"/><rect x="10" y="70" width="2" height="10" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">9月</text></g>
+                <g class="month" transform="translate(253, 0)"><rect y="120" width="8" height="50" fill="#B3B3B3"/><rect y="130" width="12" height="40" fill="#000"/><rect x="10" y="120" width="2" height="10" fill="#DE350B"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">10月</text></g>
+                <g class="month" transform="translate(280, 0)"><rect y="60" width="8" height="110" fill="#B3B3B3"/><rect y="40" width="12" height="130" fill="#000"/><rect x="10" y="40" width="2" height="20" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">11月</text></g>
+                <g class="month" transform="translate(307, 0)"><rect y="20" width="8" height="150" fill="#B3B3B3"/><rect y="10" width="12" height="160" fill="#000"/><rect x="10" y="10" width="2" height="10" fill="#00875A"/><text x="6" y="188" font-size="8.5" fill="#6A7587" text-anchor="middle">12月</text></g>
+            </g>
+        </g>
+    </g>
+</svg>
