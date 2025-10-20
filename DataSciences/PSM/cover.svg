@@ -1,0 +1,28 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Microsoft YaHei', sans-serif; background-color: #f8f9fa;">
+    <g stroke="#adb5bd" stroke-width="1">
+        <line x1="50" y1="350" x2="550" y2="350" />
+        <line x1="50" y1="50" x2="50" y2="350" />
+        <text x="560" y="350" dy=".3em">价格</text>
+        <text x="40" y="40" dy=".3em" text-anchor="end">累计%</text>
+    </g>
+    <g fill="none" stroke-width="2.5">
+        <path d="M50 340 C 200 300, 400 100, 550 60" stroke="#ef4444" id="too-expensive"/>
+        <path d="M50 320 C 150 250, 350 150, 550 80" stroke="#f97316" id="expensive"/>
+        <path d="M50 80 C 150 150, 350 250, 550 320" stroke="#22c55e" id="cheap"/>
+        <path d="M50 60 C 200 100, 400 300, 550 340" stroke="#3b82f6" id="too-cheap"/>
+    </g>
+    <g font-size="12">
+        <text fill="#ef4444" x="555" y="60">太贵</text>
+        <text fill="#f97316" x="555" y="80">有点贵</text>
+        <text fill="#22c55e" x="555" y="320">很划算</text>
+        <text fill="#3b82f6" x="555" y="340">太便宜</text>
+    </g>
+    <g fill="#343a40" font-size="12" text-anchor="middle">
+        <circle cx="270" cy="200" r="4"/>
+        <text x="270" y="220">可接受价格下限 (PMC)</text>
+        <circle cx="430" cy="200" r="4"/>
+        <text x="430" y="220">可接受价格上限 (PME)</text>
+        <circle cx="350" cy="200" r="5" fill="#e67e22"/>
+        <text x="350" y="180" font-weight="bold">最佳定价点 (OPP)</text>
+    </g>
+</svg>
