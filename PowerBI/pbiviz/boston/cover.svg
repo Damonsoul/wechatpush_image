@@ -1,0 +1,58 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="boston_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="boston_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#boston_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="70" font-size="36" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        你的下一个业务增长点，在哪？
+    </text>
+    <text x="450" y="330" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        用“波士顿矩阵”一键看清业务全局
+    </text>
+    
+    <!-- Central Matrix Element -->
+    <g transform="translate(450, 191.5)" filter="url(#boston_glow)">
+        <!-- Matrix Grid -->
+        <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        <line x1="0" y1="-100" x2="0" y2="100" stroke="#475569" stroke-width="2"/>
+        <line x1="-150" y1="0" x2="150" y2="0" stroke="#475569" stroke-width="2"/>
+
+        <!-- Quadrant Icons & Labels -->
+        <g text-anchor="middle" font-weight="bold" fill="white" opacity="0.8">
+            <!-- Stars -->
+            <text x="75" y="-50" font-size="40">⭐</text>
+            <text x="75" y="-20" font-size="16">明星</text>
+            <!-- Question Marks -->
+            <text x="-75" y="-50" font-size="40">❓</text>
+            <text x="-75" y="-20" font-size="16">问题</text>
+            <!-- Cash Cows -->
+            <text x="75" y="40" font-size="40">🐄</text>
+            <text x="75" y="70" font-size="16">金牛</text>
+            <!-- Dogs -->
+            <text x="-75" y="40" font-size="40">🐕</text>
+            <text x="-75" y="70" font-size="16">瘦狗</text>
+        </g>
+        
+        <!-- Data Points -->
+        <g>
+            <circle cx="80" cy="-60" r="15" fill="#1A843C" opacity="0.7"/>
+            <circle cx="-90" cy="-40" r="8" fill="#3275A8" opacity="0.7"/>
+            <circle cx="60" cy="50" r="20" fill="#FFA500" opacity="0.7"/>
+            <circle cx="-100" cy="60" r="10" fill="#A80000" opacity="0.7"/>
+        </g>
+    </g>
+</svg>
