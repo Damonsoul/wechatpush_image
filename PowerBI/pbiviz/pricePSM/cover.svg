@@ -1,0 +1,45 @@
+<svg width="900" height="383" viewBox="0 0 900 383" xmlns="http://www.w3.org/2000/svg" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;">
+    <defs>
+        <radialGradient id="psm_bg" cx="50%" cy="50%" r="70%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="psm_glow">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#psm_bg)" />
+
+    <!-- Main Title -->
+    <text x="450" y="70" font-size="36" font-weight="bold" text-anchor="middle" fill="#ecf0f1">
+        你的新产品，到底该卖多少钱？
+    </text>
+    <text x="450" y="330" font-size="24" text-anchor="middle" fill="#bdc3c7" letter-spacing="1">
+        用 PSM 模型一键找到“最优价格点”
+    </text>
+    
+    <!-- Central PSM Chart Element -->
+    <g transform="translate(450, 195)" filter="url(#psm_glow)">
+        <!-- Chart Area -->
+        <path d="M-250 -100 L-250 100 L250 100" fill="none" stroke="#475569" stroke-width="2"/>
+        
+        <!-- Curves -->
+        <g fill="none" stroke-width="4" stroke-linecap="round">
+            <path d="M-250 80 Q -150 40, -50 -50 L 50 -80 Q 150 -100, 250 -100" stroke="#377eb8"/> <!-- Too Cheap -->
+            <path d="M-250 100 L -100 80 Q 0 0, 100 -50 L 250 -90" stroke="#4daf4a"/> <!-- Cheap -->
+            <path d="M-250 -90 L -150 -50 Q -50 20, 50 80 L 250 100" stroke="#ff7f00"/> <!-- Expensive -->
+            <path d="M-250 -100 Q -150 -80, -50 0 L 50 50 Q 150 90, 250 95" stroke="#e41a1c"/> <!-- Too Expensive -->
+        </g>
+        
+
+        
+        <!-- Central Price Symbol -->
+        <text x="0" y="15" font-size="80" font-weight="bold" fill="#fcd34d" text-anchor="middle" opacity="0.8">¥</text>
+    </g>
+</svg>
