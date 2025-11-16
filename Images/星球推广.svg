@@ -1,0 +1,141 @@
+<svg width="900" height="1600" viewBox="0 0 900 1600" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+    <defs>
+        <radialGradient id="long_mobile_bg" cx="50%" cy="0%" r="100%">
+            <stop offset="0%" stop-color="#2c3e50" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </radialGradient>
+        <filter id="card_shadow_mobile" x="-10%" y="-10%" width="120%" height="120%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="15" result="blur"/>
+            <feOffset dx="0" dy="8" result="offsetblur"/>
+            <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="gold_grad_mobile" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fcd34d" />
+            <stop offset="100%" stop-color="#fbbf24" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="1600" fill="url(#long_mobile_bg)" />
+
+    <!-- Header -->
+    <text x="450" y="100" font-size="48" font-weight="bold" text-anchor="middle" fill="white">不止BI 知识星球</text>
+    <text x="450" y="150" font-size="22" text-anchor="middle" fill="#bdc3c7">一个反内卷、专注高效的数据分析师社群</text>
+    <rect x="350" y="180" width="200" height="4" fill="url(#gold_grad_mobile)" rx="2"/>
+
+    <!-- Section 1: Core Services -->
+    <g transform="translate(50, 240)">
+        <rect width="800" height="200" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#card_shadow_mobile)"/>
+        <text x="400" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="white">核心权益</text>
+        <g transform="translate(100, 110)" text-anchor="middle" font-size="18" font-weight="500" fill="#d1d5db">
+            <g transform="translate(0, 0)">
+                <circle r="25" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+                <text font-size="24" y="9" fill="#a78bfa" font-weight="bold">?</text>
+                <text y="55">星主有问必答</text>
+            </g>
+            <g transform="translate(200, 0)">
+                <rect x="-22" y="-22" width="44" height="44" rx="5" fill="none" stroke="#fca5a5" stroke-width="2.5"/>
+                <path d="M-10 -10 L10 10 M10 -10 L-10 10" stroke="#fca5a5" stroke-width="2.5"/>
+                <text y="55">独家资源下载</text>
+            </g>
+            <g transform="translate(400, 0)">
+                <path d="M-20 -15 L-5 -15 L-5 -5 L5 -5 L5 5 L-5 5 L-5 15 L-20 15 Z M20 -15 L5 -15 L5 -5 L20 -5 Z" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+                <text y="55">深度技术分享</text>
+            </g>
+             <g transform="translate(600, 0)">
+                <circle cx="-12" cy="-5" r="12" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+                <circle cx="12" cy="-5" r="12" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+                 <path d="M-22 10 A 18 18 0 0 0 0 25 A 18 18 0 0 0 22 10" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+                <text y="55">高质量社群</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Section 2: Exclusive Arsenal -->
+    <g transform="translate(50, 480)">
+        <rect width="800" height="800" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#card_shadow_mobile)"/>
+        <text x="400" y="70" font-size="28" font-weight="bold" text-anchor="middle" fill="white">独家 · 自研 · 武器库</text>
+        
+        <!-- List of Visuals -->
+        <g transform="translate(80, 120)" font-size="20" font-weight="500" fill="#e2e8f0">
+            <!-- Items -->
+            <g transform="translate(0, 50)">
+                <rect x="0" y="-15" width="30" height="30" rx="5" fill="#3b82f6" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#93c5fd" font-weight="bold">1</text>
+                <text x="50" y="5">智能日期切片器</text>
+            </g>
+            <g transform="translate(0, 120)">
+                <rect x="0" y="-15" width="30" height="30" rx="5" fill="#8b5cf6" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#c4b5fd" font-weight="bold">2</text>
+                <text x="50" y="5">AI 对话大模型</text>
+            </g>
+            <g transform="translate(0, 190)">
+                <rect x="0" y="-15" width="30" height="30" rx="5" fill="#10b981" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#6ee7b7" font-weight="bold">3</text>
+                <text x="50" y="5">自定义导出按钮</text>
+            </g>
+            <g transform="translate(0, 260)">
+                 <rect x="0" y="-15" width="30" height="30" rx="5" fill="#ef4444" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#f87171" font-weight="bold">4</text>
+                <text x="50" y="5">帕累托 (ABC) 分析图</text>
+            </g>
+            <g transform="translate(0, 330)">
+                 <rect x="0" y="-15" width="30" height="30" rx="5" fill="#f97316" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#fdba74" font-weight="bold">5</text>
+                <text x="50" y="5">波士顿矩阵 (BCG) 图</text>
+            </g>
+            <g transform="translate(0, 400)">
+                 <rect x="0" y="-15" width="30" height="30" rx="5" fill="#f43f5e" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#fb7185" font-weight="bold">6</text>
+                <text x="50" y="5">蛛网/雷达图</text>
+            </g>
+             <g transform="translate(0, 470)">
+                 <rect x="0" y="-15" width="30" height="30" rx="5" fill="#64748b" fill-opacity="0.3"/>
+                <text x="15" y="7" text-anchor="middle" fill="#cbd5e1" font-weight="bold">7</text>
+                <text x="50" y="5">价格敏感度 (PSM) 模型</text>
+            </g>
+            
+             <line x1="0" y1="520" x2="720" y2="520" stroke="rgba(255,255,255,0.15)"/>
+
+             <g transform="translate(0, 570)">
+                 <rect x="0" y="-15" width="30" height="30" rx="5" fill="#fcd34d" fill-opacity="0.3"/>
+                 <text x="7" y="5" font-family="monospace" font-size="20" fill="#fde047">❯_</text>
+                 <text x="50" y="5">DAX-CLI (命令行 &amp; GUI 工具)</text>
+             </g>
+             <g transform="translate(0, 640)">
+                 <path d="M5 0 L15 -12 L25 0 M5 0 L5 15 L25 15 L25 0" fill="none" stroke="#d1d5db" stroke-width="2.5"/>
+                 <text x="50" y="5">高效模板 (PBIX / Deneb / TE脚本)</text>
+             </g>
+             <g transform="translate(0, 710)">
+                <path d="M5 0 L25 0 M5 8 L25 8 M5 16 L18 16" stroke="#d1d5db" stroke-width="2.5"/>
+                <text x="50" y="5">精选 DAX 函数库</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Section 3: Roadmap -->
+    <g transform="translate(50, 1320)">
+        <rect width="800" height="230" rx="20" fill="rgba(255,255,255,0.05)" filter="url(#card_shadow_mobile)"/>
+        <text x="400" y="60" font-size="28" font-weight="bold" text-anchor="middle" fill="white">未来 · 持续更新</text>
+
+        <g transform="translate(80, 100)" font-size="18" font-weight="500" fill="#d1d5db">
+            <g transform="translate(0, 30)">
+                <circle cx="12" cy="0" r="6" fill="#fbbf24" fill-opacity="0.5"/>
+                <text x="35" y="5">更多高级自定义视觉对象</text>
+            </g>
+            <g transform="translate(0, 80)">
+                <circle cx="12" cy="0" r="6" fill="#fbbf24" fill-opacity="0.5"/>
+                <text x="35" y="5">DAX-CLI 工具持续迭代，集成更多功能</text>
+            </g>
+            <g transform="translate(0, 130)">
+                <circle cx="12" cy="0" r="6" fill="#fbbf24" fill-opacity="0.5"/>
+                <text x="35" y="5">更多开箱即用的 PBIX 业务分析模板</text>
+            </g>
+        </g>
+    </g>
+
+</svg>
