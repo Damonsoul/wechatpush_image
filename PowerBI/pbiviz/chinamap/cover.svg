@@ -1,24 +1,21 @@
-
 <svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="900" height="383" fill="url(#paint0_radial_1_2)"/>
-<g opacity="0.5" filter="url(#filter0_f_1_2)">
-<path d="M283.5 106C283.5 106 313.5 166 408.5 158C503.5 150 543 200.5 543 200.5C543 200.5 588 238.5 617 261C646 283.5 677.5 289 677.5 289L689 106L283.5 106Z" fill="#00D1FF"/>
+<path d="M450 191.5C383.66 191.5 330 245.16 330 311.5L570 311.5C570 245.16 516.34 191.5 450 191.5Z" fill="url(#paint1_linear_1_2)" opacity="0.1"/>
+<g opacity="0.3" filter="url(#filter0_f_1_2)">
+<path d="M472.937 114.475L450 72L427.063 114.475L381.188 122.925L414.125 154.9L405.875 200.55L450 178.5L494.125 200.55L485.875 154.9L518.812 122.925L472.937 114.475Z" fill="#00D1FF"/>
 </g>
-<path d="M400.413 162.333L363.333 182.889L326.253 162.333L326.253 121.222L363.333 100.667L400.413 121.222L400.413 162.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M473.747 119.333L436.667 139.889L399.587 119.333L399.587 78.2222L436.667 57.6667L473.747 78.2222L473.747 119.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M547.08 162.333L510 182.889L472.92 162.333L472.92 121.222L510 100.667L547.08 121.222L547.08 162.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M400.413 248.333L363.333 268.889L326.253 248.333L326.253 207.222L363.333 186.667L400.413 207.222L400.413 248.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M473.747 205.333L436.667 225.889L399.587 205.333L399.587 164.222L436.667 143.667L473.747 164.222L473.747 205.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M547.08 248.333L510 268.889L472.92 248.333L472.92 207.222L510 186.667L547.08 207.222L547.08 248.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<path d="M620.413 205.333L583.333 225.889L546.253 205.333L546.253 164.222L583.333 143.667L620.413 164.222L620.413 205.333Z" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
-<foreignObject x="50" y="140" width="300" height="120">
-  <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', sans-serif; font-size: 38px; color: white; font-weight: 600; line-height: 1.2;">
-    China Map Visual
-    <div style="font-size: 22px; font-weight: 300; margin-top: 10px; color: rgba(255,255,255,0.8);">为真正的数据分析而生</div>
+<g style="mix-blend-mode:overlay" opacity="0.5">
+<path d="M370 191.652C370 147.538 405.903 111.652 450 111.652C494.097 111.652 530 147.538 530 191.652C530 235.766 494.097 271.652 450 271.652C405.903 271.652 370 235.766 370 191.652Z" stroke="white" stroke-width="2"/>
+</g>
+<path d="M330 191.501C330 125.161 383.66 71.501 450 71.501C516.34 71.501 570 125.161 570 191.501C570 257.841 516.34 311.501 450 311.501C383.66 311.501 330 257.841 330 191.501Z" stroke="white" stroke-opacity="0.1"/>
+<foreignObject x="50" y="140" width="280" height="120">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; font-size: 38px; color: white; font-weight: 600; line-height: 1.2;">
+    再一次进化
+    <div style="font-size: 22px; font-weight: 300; margin-top: 10px; color: rgba(255,255,255,0.8);">为更深度的分析而来</div>
   </div>
 </foreignObject>
 <defs>
-<filter id="filter0_f_1_2" x="183.5" y="6" width="605.5" height="383" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_1_2" x="281.188" y="-28" width="337.625" height="328.55" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_1_2"/>
@@ -27,5 +24,9 @@
 <stop stop-color="#0A0F1E"/>
 <stop offset="1" stop-color="#000D21"/>
 </radialGradient>
+<linearGradient id="paint1_linear_1_2" x1="450" y1="191.5" x2="450" y2="311.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
 </defs>
 </svg>
