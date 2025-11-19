@@ -1,27 +1,74 @@
 <svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="900" height="383" fill="#0F172A"/>
-<path d="M0 0L900 0V383H0V0Z" fill="url(#paint0_radial_1)"/>
-<path d="M725.5 134.5C725.5 134.5 760.5 204.5 871.5 195C982.5 185.5 1028.5 244.5 1028.5 244.5" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.3"/>
-<path d="M-82 298C-82 298 -27 258 68 288C163 318 193 238 193 238" stroke="#818CF8" stroke-width="2" stroke-opacity="0.3"/>
-<rect x="113" y="103" width="160" height="40" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-<text x="193" y="129" fill="#94A3B8" font-family="Consolas, monospace" font-size="14" text-anchor="middle">&lt;TMDL /&gt;</text>
-<rect x="627" y="243" width="160" height="40" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-<text x="707" y="269" fill="#94A3B8" font-family="Consolas, monospace" font-size="14" text-anchor="middle">{ MCP_Server }</text>
-<circle cx="450" cy="191" r="60" fill="url(#paint1_linear_1)" stroke="#38BDF8" stroke-width="2"/>
-<path d="M435 191L445 201L465 181" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<foreignObject x="250" y="300" width="400" height="50">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Segoe UI', sans-serif; color: #E2E8F0; font-size: 20px; font-weight: 300; letter-spacing: 2px;">
-        NOVEMBER 2025 UPDATE
-    </div>
-</foreignObject>
+<!-- Background: Cool Grey to make white cards pop -->
+<rect width="900" height="383" fill="#E2E8F0"/>
+
+<!-- Grid Pattern for texture -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<!-- DEFINITIONS -->
 <defs>
-<radialGradient id="paint0_radial_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 191.5) rotate(90) scale(300 600)">
-<stop stop-color="#1E293B" stop-opacity="0"/>
-<stop offset="1" stop-color="#020617"/>
-</radialGradient>
-<linearGradient id="paint1_linear_1" x1="450" y1="131" x2="450" y2="251" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0EA5E9"/>
-<stop offset="1" stop-color="#6366F1"/>
-</linearGradient>
+    <!-- Stronger Shadow Filter for compatibility -->
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.15"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
 </defs>
+
+<!-- === SURROUNDING CHARTS (Now High Contrast) === -->
+
+<!-- 1. Left: Bar Chart Card -->
+<g filter="url(#card-shadow)">
+    <rect x="60" y="70" width="140" height="110" rx="12" fill="white"/>
+    <!-- Bars -->
+    <rect x="80" y="130" width="14" height="30" rx="2" fill="#0078D4" opacity="0.3"/>
+    <rect x="100" y="100" width="14" height="60" rx="2" fill="#0078D4"/>
+    <rect x="120" y="115" width="14" height="45" rx="2" fill="#0078D4" opacity="0.6"/>
+    <rect x="140" y="90" width="14" height="70" rx="2" fill="#118DFF"/>
+    <rect x="160" y="140" width="14" height="20" rx="2" fill="#0078D4" opacity="0.3"/>
+</g>
+
+<!-- 2. Right: Donut Chart Card -->
+<g filter="url(#card-shadow)">
+    <rect x="700" y="190" width="140" height="110" rx="12" fill="white"/>
+    <!-- Donut -->
+    <circle cx="770" cy="245" r="32" stroke="#F2C811" stroke-width="14" fill="none"/>
+    <path d="M770 213 A32 32 0 0 1 802 245" stroke="#F9E386" stroke-width="14" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- 3. Bottom Left: Line Chart Card -->
+<g filter="url(#card-shadow)">
+    <rect x="120" y="240" width="180" height="90" rx="12" fill="white"/>
+    <!-- Line Area -->
+    <path d="M140 290 L165 270 L190 285 L215 260 L240 270 L270 250" stroke="#107C10" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M140 290 L165 270 L190 285 L215 260 L240 270 L270 250 V310 H140 Z" fill="#107C10" opacity="0.1"/>
+    <!-- Points -->
+    <circle cx="165" cy="270" r="3" fill="#107C10"/>
+    <circle cx="215" cy="260" r="3" fill="#107C10"/>
+    <circle cx="270" cy="250" r="3" fill="#107C10"/>
+</g>
+
+<!-- 4. Top Right: KPI Card -->
+<g filter="url(#card-shadow)">
+    <rect x="600" y="50" width="160" height="70" rx="12" fill="white"/>
+    <rect x="620" y="70" width="40" height="30" rx="4" fill="#E1DFDD"/>
+    <rect x="670" y="75" width="70" height="8" rx="4" fill="#C8C6C4"/>
+    <rect x="670" y="90" width="50" height="8" rx="4" fill="#E1DFDD"/>
+</g>
+
+
+<!-- === CENTER TITLE CARD === -->
+<g filter="url(#card-shadow)">
+    <rect x="225" y="116" width="450" height="150" rx="20" fill="white"/>
+    <!-- Title Text -->
+    <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#744DA9" font-weight="600" letter-spacing="3">POWER BI UPDATE</text>
+    <text x="450" y="235" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="52" fill="#212529" font-weight="900">11月功能更新</text>
+</g>
+
 </svg>
