@@ -1,0 +1,27 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#0F172A"/>
+<path d="M0 0L900 0V383H0V0Z" fill="url(#paint0_radial_1)"/>
+<path d="M725.5 134.5C725.5 134.5 760.5 204.5 871.5 195C982.5 185.5 1028.5 244.5 1028.5 244.5" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.3"/>
+<path d="M-82 298C-82 298 -27 258 68 288C163 318 193 238 193 238" stroke="#818CF8" stroke-width="2" stroke-opacity="0.3"/>
+<rect x="113" y="103" width="160" height="40" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+<text x="193" y="129" fill="#94A3B8" font-family="Consolas, monospace" font-size="14" text-anchor="middle">&lt;TMDL /&gt;</text>
+<rect x="627" y="243" width="160" height="40" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+<text x="707" y="269" fill="#94A3B8" font-family="Consolas, monospace" font-size="14" text-anchor="middle">{ MCP_Server }</text>
+<circle cx="450" cy="191" r="60" fill="url(#paint1_linear_1)" stroke="#38BDF8" stroke-width="2"/>
+<path d="M435 191L445 201L465 181" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<foreignObject x="250" y="300" width="400" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Segoe UI', sans-serif; color: #E2E8F0; font-size: 20px; font-weight: 300; letter-spacing: 2px;">
+        NOVEMBER 2025 UPDATE
+    </div>
+</foreignObject>
+<defs>
+<radialGradient id="paint0_radial_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 191.5) rotate(90) scale(300 600)">
+<stop stop-color="#1E293B" stop-opacity="0"/>
+<stop offset="1" stop-color="#020617"/>
+</radialGradient>
+<linearGradient id="paint1_linear_1" x1="450" y1="131" x2="450" y2="251" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0EA5E9"/>
+<stop offset="1" stop-color="#6366F1"/>
+</linearGradient>
+</defs>
+</svg>
