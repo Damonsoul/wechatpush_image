@@ -1,0 +1,54 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.15"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- === LEFT: The Annoying Login Window === -->
+<g filter="url(#card-shadow)" transform="rotate(-5, 200, 191)">
+    <rect x="80" y="100" width="260" height="180" rx="4" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Window Header Text -->
+    <rect x="100" y="125" width="180" height="12" rx="2" fill="#343A40"/>
+    <!-- Description Lines -->
+    <rect x="100" y="150" width="220" height="6" rx="2" fill="#E9ECEF"/>
+    <rect x="100" y="162" width="200" height="6" rx="2" fill="#E9ECEF"/>
+    <!-- Input Label -->
+    <rect x="100" y="185" width="50" height="8" rx="2" fill="#868E96"/>
+    <!-- Input Box -->
+    <rect x="100" y="200" width="220" height="24" stroke="#ADB5BD" stroke-width="1" fill="white"/>
+    <!-- Green Continue Button -->
+    <rect x="100" y="240" width="60" height="24" rx="2" fill="#107C10"/>
+    <rect x="115" y="248" width="30" height="8" rx="1" fill="white" opacity="0.9"/>
+    <!-- Cancel Button -->
+    <rect x="170" y="240" width="60" height="24" rx="2" stroke="#DEE2E6" stroke-width="1" fill="white"/>
+</g>
+
+<!-- === RIGHT: The Toggle Switch (Solution) === -->
+<g filter="url(#card-shadow)" transform="rotate(5, 700, 191)">
+    <rect x="600" y="130" width="220" height="120" rx="12" fill="white"/>
+    <text x="710" y="165" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#868E96" font-weight="600" letter-spacing="1">预览功能</text>
+    <!-- The Switch OFF -->
+    <rect x="650" y="185" width="120" height="40" rx="20" fill="#E9ECEF"/>
+    <circle cx="670" cy="205" r="16" fill="white" filter="url(#card-shadow)"/>
+</g>
+
+<!-- === CENTER TITLE === -->
+<g filter="url(#card-shadow)">
+    <rect x="250" y="131" width="400" height="120" rx="16" fill="white"/>
+    <text x="450" y="185" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#107C10" font-weight="bold" letter-spacing="2">PowerBI Desktop</text>
+    <text x="450" y="225" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">关闭烦人的登录弹窗</text>
+</g>
+
+</svg>
