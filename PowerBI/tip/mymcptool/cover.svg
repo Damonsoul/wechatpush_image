@@ -1,0 +1,51 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.15"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: Cherry Studio Concept -->
+<g filter="url(#card-shadow)">
+    <rect x="120" y="110" width="160" height="160" rx="20" fill="white"/>
+    <!-- Cherry Icon Representation -->
+    <circle cx="180" cy="200" r="25" fill="#FF6B6B"/>
+    <circle cx="220" cy="210" r="25" fill="#FF6B6B"/>
+    <path d="M180 200 Q200 150 230 140" stroke="#51CF66" stroke-width="6" stroke-linecap="round"/>
+    <path d="M220 210 Q210 160 230 140" stroke="#51CF66" stroke-width="6" stroke-linecap="round"/>
+    <path d="M230 140 L240 130" stroke="#51CF66" stroke-width="6" stroke-linecap="round"/>
+</g>
+
+<!-- Right: Power BI -->
+<g filter="url(#card-shadow)">
+    <rect x="620" y="110" width="160" height="160" rx="20" fill="white"/>
+    <rect x="660" y="140" width="25" height="80" rx="2" fill="#F2C811"/>
+    <rect x="695" y="120" width="25" height="100" rx="2" fill="#F2C811"/>
+    <rect x="730" y="160" width="25" height="60" rx="2" fill="#F2C811"/>
+</g>
+
+<!-- Center: Bridge & Free Badge -->
+<rect x="320" y="186" width="260" height="12" rx="6" fill="#DEE2E6"/>
+<circle cx="450" cy="192" r="40" fill="white" stroke="#339AF0" stroke-width="4"/>
+<text x="450" y="200" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#339AF0" font-weight="bold">MCP</text>
+
+<!-- Badge: FREE -->
+<g transform="rotate(-10, 450, 100)">
+    <rect x="390" y="70" width="120" height="40" rx="8" fill="#FF6B6B" filter="url(#card-shadow)"/>
+    <text x="450" y="97" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="white" font-weight="900" letter-spacing="2">FREE</text>
+</g>
+
+<text x="450" y="320" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="40" fill="#212529" font-weight="900">零门槛 · 免费方案</text>
+
+</svg>
