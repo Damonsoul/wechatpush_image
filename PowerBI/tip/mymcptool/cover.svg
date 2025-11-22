@@ -35,10 +35,14 @@
     <rect x="730" y="160" width="25" height="60" rx="2" fill="#F2C811"/>
 </g>
 
-<!-- Center: Bridge & Free Badge -->
+<!-- Center: Bridge & AI+BI Badge -->
 <rect x="320" y="186" width="260" height="12" rx="6" fill="#DEE2E6"/>
-<circle cx="450" cy="192" r="40" fill="white" stroke="#339AF0" stroke-width="4"/>
-<text x="450" y="200" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#339AF0" font-weight="bold">MCP</text>
+
+<!-- Enlarged Center Circle -->
+<circle cx="450" cy="192" r="50" fill="white" stroke="#339AF0" stroke-width="5"/>
+
+<!-- Enlarged Text -->
+<text x="450" y="202" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#339AF0" font-weight="900" letter-spacing="1">AI+BI</text>
 
 <!-- Badge: FREE -->
 <g transform="rotate(-10, 450, 100)">
