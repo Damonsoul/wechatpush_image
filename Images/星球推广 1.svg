@@ -1,0 +1,151 @@
+<svg width="600" height="1100" viewBox="0 0 600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="1100" fill="#F8F9FA"/>
+
+<!-- DEFINITIONS -->
+<defs>
+    <!-- Soft Shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="grad-blue" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#E7F5FF"/>
+        <stop offset="1" stop-color="#A5D8FF" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="grad-purple" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#F3F0FF"/>
+        <stop offset="1" stop-color="#D0BFFF" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="grad-green" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#E6FCF5"/>
+        <stop offset="1" stop-color="#96F2D7" stop-opacity="0.3"/>
+    </linearGradient>
+</defs>
+
+<!-- HEADER -->
+<g transform="translate(300, 60)">
+    <text y="0" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#868E96" letter-spacing="4">不止BI · 知识星球</text>
+    <text y="45" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">数据分析师的</text>
+    <text y="90" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">高效军火库</text>
+</g>
+
+<!-- === CARD 1: EXCLUSIVE VISUALS === -->
+<g transform="translate(40, 180)" filter="url(#shadow)">
+    <rect width="520" height="380" rx="20" fill="white"/>
+    <rect width="520" height="380" rx="20" fill="url(#grad-blue)" opacity="0.4"/>
+    
+    <text x="40" y="50" font-family="'Microsoft YaHei', sans-serif" font-size="24" fill="#1864AB" font-weight="bold">独家视觉对象 (纯净版)</text>
+    <text x="40" y="80" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#495057">解决原生痛点，拒绝审美疲劳</text>
+
+    <!-- Sub-Item: Map -->
+    <g transform="translate(40, 110)">
+        <rect width="210" height="110" rx="12" fill="white" stroke="#A5D8FF"/>
+        <path d="M60 40 L100 30 L140 50 L130 80 L70 90 Z" fill="#339AF0"/>
+        <text x="105" y="20" text-anchor="middle" font-size="12" fill="#1864AB" font-weight="bold" dy="100">高级形状地图</text>
+    </g>
+
+    <!-- Sub-Item: Login -->
+    <g transform="translate(270, 110)">
+        <rect width="210" height="110" rx="12" fill="white" stroke="#A5D8FF"/>
+        <rect x="55" y="35" width="100" height="12" rx="4" fill="#E9ECEF"/>
+        <rect x="55" y="55" width="100" height="12" rx="4" fill="#E9ECEF"/>
+        <rect x="55" y="75" width="60" height="16" rx="6" fill="#339AF0"/>
+        <text x="105" y="20" text-anchor="middle" font-size="12" fill="#1864AB" font-weight="bold" dy="100">自定义登录系统</text>
+    </g>
+
+    <!-- Sub-Item: Matrix/Charts -->
+    <g transform="translate(40, 240)">
+        <rect width="440" height="110" rx="12" fill="white" stroke="#A5D8FF"/>
+        <!-- Icons Row -->
+        <g transform="translate(40, 30)">
+            <!-- Slicer -->
+            <rect x="0" y="0" width="30" height="40" rx="4" fill="#E7F5FF"/>
+            <path d="M10 10 H20 M10 20 H20 M10 30 H15" stroke="#339AF0" stroke-width="2"/>
+            <text x="15" y="60" text-anchor="middle" font-size="11" fill="#555">全能切片器</text>
+        </g>
+        <g transform="translate(110, 30)">
+            <!-- Boston -->
+            <rect x="0" y="0" width="40" height="40" rx="4" fill="#FFF3BF"/>
+            <rect x="20" y="0" width="20" height="20" fill="#FCC419"/>
+            <text x="20" y="60" text-anchor="middle" font-size="11" fill="#555">波士顿矩阵</text>
+        </g>
+        <g transform="translate(190, 30)">
+            <!-- Radar -->
+            <path d="M20 0 L40 15 L32 38 H8 L0 15 Z" fill="#F3F0FF" stroke="#7950F2" stroke-width="1"/>
+            <text x="20" y="60" text-anchor="middle" font-size="11" fill="#555">蛛网雷达</text>
+        </g>
+        <g transform="translate(260, 30)">
+            <!-- ABC -->
+            <rect x="0" y="10" width="10" height="30" fill="#69DB7C"/>
+            <rect x="12" y="20" width="10" height="20" fill="#69DB7C"/>
+            <rect x="24" y="30" width="10" height="10" fill="#69DB7C"/>
+            <text x="20" y="60" text-anchor="middle" font-size="11" fill="#555">帕累托</text>
+        </g>
+        
+        <!-- More... -->
+        <g transform="translate(350, 35)">
+            <circle cx="15" cy="15" r="15" fill="#E9ECEF"/>
+            <circle cx="10" cy="15" r="2" fill="#868E96"/>
+            <circle cx="15" cy="15" r="2" fill="#868E96"/>
+            <circle cx="20" cy="15" r="2" fill="#868E96"/>
+            <text x="15" y="55" text-anchor="middle" font-size="11" fill="#868E96">更多...</text>
+        </g>
+    </g>
+</g>
+
+<!-- === CARD 2: AI & MCP === -->
+<g transform="translate(40, 590)" filter="url(#shadow)">
+    <rect width="520" height="200" rx="20" fill="white"/>
+    <rect width="520" height="200" rx="20" fill="url(#grad-purple)" opacity="0.4"/>
+    
+    <text x="40" y="50" font-family="'Microsoft YaHei', sans-serif" font-size="24" fill="#5F3DC4" font-weight="bold">AI 提效黑科技</text>
+    
+    <!-- AI Illustration -->
+    <g transform="translate(380, 40)">
+        <circle cx="60" cy="60" r="50" fill="white"/>
+        <text x="60" y="75" text-anchor="middle" font-size="40">🤖</text>
+    </g>
+
+    <g transform="translate(40, 90)">
+        <text x="0" y="0" font-family="'Microsoft YaHei', sans-serif" font-size="18" fill="#343A40" font-weight="bold">MCP 零门槛服务包</text>
+        <text x="0" y="30" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#495057">无需写代码，让 AI 直接操控 Power BI</text>
+        <text x="0" y="55" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#495057">已集成 dax-cli，支持自动建模与分析</text>
+    </g>
+</g>
+
+<!-- === CARD 3: RESOURCES & COMMUNITY === -->
+<g transform="translate(40, 820)" filter="url(#shadow)">
+    <rect width="520" height="220" rx="20" fill="white"/>
+    <rect width="520" height="220" rx="20" fill="url(#grad-green)" opacity="0.4"/>
+    
+    <text x="40" y="50" font-family="'Microsoft YaHei', sans-serif" font-size="24" fill="#087F5B" font-weight="bold">硬核资源 &amp; 社群</text>
+
+    <!-- File Stack Illustration -->
+    <g transform="translate(320, 50)">
+        <rect x="20" y="0" width="100" height="120" rx="8" fill="#C3FAE8" stroke="#087F5B" stroke-width="1"/>
+        <rect x="10" y="10" width="100" height="120" rx="8" fill="#96F2D7" stroke="#087F5B" stroke-width="1"/>
+        <rect x="0" y="20" width="100" height="120" rx="8" fill="#63E6BE" stroke="#087F5B" stroke-width="1"/>
+        <path d="M25 50 H75 M25 70 H75 M25 90 H50" stroke="#087F5B" stroke-width="2" stroke-linecap="round"/>
+        <text x="50" y="160" text-anchor="middle" font-size="12" fill="#087F5B" font-weight="bold">资源库</text>
+    </g>
+
+    <g transform="translate(40, 90)">
+        <text x="0" y="0" font-size="15" fill="#495057" font-weight="bold">✅ PBIX 业务模板资源</text>
+        <text x="0" y="35" font-size="15" fill="#495057" font-weight="bold">✅ Deneb / Tabular Editor 脚本</text>
+        <text x="0" y="70" font-size="15" fill="#495057" font-weight="bold">✅ 星主一对一答疑</text>
+        
+        <!-- More indication -->
+        <text x="0" y="105" font-size="14" fill="#868E96" font-style="italic">...更多黑科技持续集成中</text>
+    </g>
+</g>
+
+</svg>
