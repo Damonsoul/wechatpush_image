@@ -1,49 +1,65 @@
 <svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="900" height="383" fill="#0F172A"/>
-<path d="M0 0L900 0V383H0V0Z" fill="url(#paint0_radial_1)"/>
-<!-- Decorative Grid -->
-<path d="M0 191.5 H900 M450 0 V383" stroke="#1E293B" stroke-width="2" stroke-dasharray="20 20"/>
-
-<!-- Root Node -->
-<g filter="url(#glow)">
-    <rect x="100" y="166" width="140" height="50" rx="8" fill="#3B82F6" stroke="#60A5FA" stroke-width="2"/>
-    <rect x="100" y="210" width="140" height="6" rx="0" fill="#1E3A8A"/>
-    <rect x="100" y="210" width="140" height="6" rx="0" fill="#93C5FD"/>
-</g>
-
-<!-- Connections -->
-<path d="M240 191 C 320 191, 320 100, 400 100" stroke="#64748B" stroke-width="2" fill="none"/>
-<path d="M240 191 C 320 191, 320 282, 400 282" stroke="#64748B" stroke-width="2" fill="none"/>
-
-<!-- Child Node 1 -->
-<g filter="url(#glow)">
-    <rect x="400" y="75" width="140" height="50" rx="8" fill="#1E293B" stroke="#334155" stroke-width="2"/>
-    <rect x="400" y="119" width="140" height="6" rx="0" fill="#0F172A"/>
-    <rect x="400" y="119" width="100" height="6" rx="0" fill="#3B82F6"/>
-</g>
-
-<!-- Child Node 2 -->
-<g filter="url(#glow)">
-    <rect x="400" y="257" width="140" height="50" rx="8" fill="#1E293B" stroke="#334155" stroke-width="2"/>
-    <rect x="400" y="301" width="140" height="6" rx="0" fill="#0F172A"/>
-    <rect x="400" y="301" width="60" height="6" rx="0" fill="#3B82F6"/>
-</g>
-
-<!-- Text -->
-<text x="650" y="180" font-family="'Segoe UI', sans-serif" font-size="48" fill="white" font-weight="bold">PowerBI超级逻辑树</text>
-<text x="650" y="220" font-family="'Microsoft YaHei', sans-serif" font-size="24" fill="#94A3B8" font-weight="300">带 KPI 的层级分析</text>
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 40 H900 M0 120 H900 M0 200 H900 M0 280 H900 M0 360 H900" stroke="#E9ECEF" stroke-width="2"/>
+<path d="M100 0 V383 M300 0 V383 M500 0 V383 M700 0 V383" stroke="#E9ECEF" stroke-width="2"/>
 
 <defs>
-<radialGradient id="paint0_radial_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 191.5) rotate(90) scale(300 600)">
-<stop stop-color="#1E293B" stop-opacity="0"/>
-<stop offset="1" stop-color="#020617"/>
-</radialGradient>
-<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-    <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-</filter>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
 </defs>
+
+<!-- Connections (Bezier Curves) -->
+<path d="M260 191 C 330 191, 330 110, 400 110" stroke="#CBD5E1" stroke-width="3" fill="none"/>
+<path d="M260 191 C 330 191, 330 272, 400 272" stroke="#CBD5E1" stroke-width="3" fill="none"/>
+
+<!-- === ROOT NODE === -->
+<g filter="url(#card-shadow)">
+    <rect x="100" y="156" width="160" height="70" rx="12" fill="white"/>
+    <!-- Icon/Avatar placeholder -->
+    <circle cx="130" cy="191" r="16" fill="#E7F5FF"/>
+    <circle cx="130" cy="191" r="6" fill="#339AF0"/>
+    <!-- Text Lines -->
+    <rect x="160" y="176" width="80" height="10" rx="2" fill="#343A40"/>
+    <!-- KPI Bar -->
+    <rect x="160" y="196" width="80" height="6" rx="3" fill="#E9ECEF"/>
+    <rect x="160" y="196" width="60" height="6" rx="3" fill="#339AF0"/>
+</g>
+
+<!-- === CHILD NODE 1 (Top) === -->
+<g filter="url(#card-shadow)">
+    <rect x="400" y="75" width="160" height="70" rx="12" fill="white"/>
+    <!-- Text Lines -->
+    <rect x="420" y="95" width="60" height="10" rx="2" fill="#495057"/>
+    <rect x="520" y="95" width="20" height="10" rx="2" fill="#E9ECEF"/>
+    <!-- KPI Bar -->
+    <rect x="420" y="115" width="120" height="6" rx="3" fill="#E9ECEF"/>
+    <rect x="420" y="115" width="90" height="6" rx="3" fill="#51CF66"/> <!-- Green for good -->
+</g>
+
+<!-- === CHILD NODE 2 (Bottom) === -->
+<g filter="url(#card-shadow)">
+    <rect x="400" y="237" width="160" height="70" rx="12" fill="white"/>
+    <!-- Text Lines -->
+    <rect x="420" y="257" width="70" height="10" rx="2" fill="#495057"/>
+    <rect x="520" y="257" width="20" height="10" rx="2" fill="#E9ECEF"/>
+    <!-- KPI Bar -->
+    <rect x="420" y="277" width="120" height="6" rx="3" fill="#E9ECEF"/>
+    <rect x="420" y="277" width="40" height="6" rx="3" fill="#FF6B6B"/> <!-- Red for bad -->
+</g>
+
+<!-- === TEXT LABELS === -->
+<text x="620" y="170" font-family="'Segoe UI', sans-serif" font-size="42" fill="#212529" font-weight="900">Power BI</text>
+<text x="620" y="220" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#339AF0" font-weight="bold">超级逻辑树</text>
+<text x="620" y="260" font-family="'Microsoft YaHei', sans-serif" font-size="18" fill="#868E96" font-weight="500">带 KPI 的层级分析</text>
+
 </svg>
