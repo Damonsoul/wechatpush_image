@@ -1,0 +1,54 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.15"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Connecting Line (Background) -->
+<path d="M180 191 H720" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round" stroke-dasharray="20 20"/>
+
+<!-- Left: Cloud Library (Faded) -->
+<g opacity="0.6" filter="url(#card-shadow)">
+    <circle cx="150" cy="191" r="50" fill="white"/>
+    <path d="M135 195 C135 185 145 180 155 180 C162 180 168 182 170 188 C172 185 180 185 185 190 C190 195 188 202 185 202 H135 C130 202 128 198 135 195 Z" fill="#E3FAFC" stroke="#22B8CF" stroke-width="3"/>
+</g>
+
+<!-- Right: Local Model (Faded) -->
+<g opacity="0.6" filter="url(#card-shadow)">
+    <circle cx="750" cy="191" r="50" fill="white"/>
+    <rect x="735" y="171" width="30" height="40" rx="2" fill="#FFF9DB" stroke="#F08C00" stroke-width="3"/>
+</g>
+
+<!-- Center: Title Card -->
+<g filter="url(#card-shadow)">
+    <!-- Main Pill Shape -->
+    <rect x="200" y="126" width="500" height="130" rx="24" fill="white"/>
+    
+    <!-- Decor Bar -->
+    <rect x="230" y="146" width="6" height="90" rx="3" fill="#339AF0"/>
+    
+    <!-- Text Lines -->
+    <text x="460" y="180" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#339AF0" font-weight="900" letter-spacing="1">PowerBI MCP</text>
+    <text x="460" y="225" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">功能更新</text>
+</g>
+
+<!-- Floating "New" Badge -->
+<g filter="url(#card-shadow)" transform="translate(660, 110) rotate(15)">
+    <rect x="0" y="0" width="80" height="30" rx="15" fill="#FF6B6B"/>
+    <text x="40" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="white" font-weight="bold">NEW</text>
+</g>
+
+</svg>
