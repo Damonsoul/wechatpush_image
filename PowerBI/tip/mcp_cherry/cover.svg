@@ -1,0 +1,49 @@
+
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.15"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: Cherry Studio -->
+<g filter="url(#card-shadow)">
+    <rect x="100" y="110" width="160" height="160" rx="20" fill="white"/>
+    <circle cx="180" cy="190" r="40" fill="#FFE3E3"/>
+    <path d="M180 190 Q200 140 230 130" stroke="#FF6B6B" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="180" cy="190" r="15" fill="#FF6B6B"/>
+</g>
+
+<!-- Right: Official MCP -->
+<g filter="url(#card-shadow)">
+    <rect x="640" y="110" width="160" height="160" rx="20" fill="white"/>
+    <rect x="680" y="150" width="80" height="80" rx="4" fill="#F2C811"/>
+    <path d="M720 150 V230 M680 190 H760" stroke="#E0A800" stroke-width="2"/>
+    <rect x="670" y="130" width="100" height="12" rx="2" fill="#343A40"/>
+</g>
+
+<!-- Center: Connection Logic -->
+<rect x="320" y="170" width="260" height="40" rx="8" fill="#343A40"/>
+<text x="450" y="198" text-anchor="middle" font-family="'Consolas', monospace" font-size="28" fill="#F2C811">PowerBI</text>
+
+<!-- Connectors -->
+<circle cx="320" cy="190" r="6" fill="#343A40"/>
+<circle cx="580" cy="190" r="6" fill="#343A40"/>
+<path d="M260 190 H320 M580 190 H640" stroke="#343A40" stroke-width="2" stroke-dasharray="6 6"/>
+
+<!-- Title -->
+<text x="450" y="280" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">官方 MCP 配置指南</text>
+<text x="450" y="320" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#868E96">Cherry Studio 篇</text>
+
+</svg>
