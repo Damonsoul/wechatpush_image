@@ -1,0 +1,71 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F0F4F8"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="6" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.12"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left Element: Chart with Labels -->
+<g filter="url(#card-shadow)" transform="translate(100, 100) rotate(-6)">
+    <rect x="0" y="0" width="180" height="140" rx="16" fill="white"/>
+    <!-- Bars -->
+    <rect x="30" y="60" width="20" height="60" rx="2" fill="#CED4DA"/>
+    <text x="40" y="50" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#868E96" font-weight="bold">120</text>
+    
+    <rect x="70" y="40" width="20" height="80" rx="2" fill="#339AF0"/>
+    <text x="80" y="30" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#339AF0" font-weight="bold">240</text>
+    
+    <rect x="110" y="70" width="20" height="50" rx="2" fill="#EF4444"/>
+    <text x="120" y="60" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#EF4444" font-weight="bold">-50</text>
+    
+    <!-- Label Indicator -->
+    <rect x="10" y="10" width="60" height="16" rx="4" fill="#E7F5FF"/>
+    <text x="40" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#1C7ED6" font-weight="bold">LABELS ON</text>
+</g>
+
+<!-- Right Element: Smart Units Switch -->
+<g filter="url(#card-shadow)" transform="translate(620, 110) rotate(6)">
+    <rect x="0" y="0" width="180" height="140" rx="16" fill="white"/>
+    
+    <!-- English Unit -->
+    <rect x="20" y="30" width="140" height="36" rx="8" fill="#F8F9FA"/>
+    <text x="35" y="54" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ADB5BD">EN</text>
+    <text x="145" y="54" text-anchor="end" font-family="'Segoe UI', sans-serif" font-size="18" fill="#343A40" font-weight="bold">1.5 M</text>
+    
+    <!-- Chinese Unit (Highlighted) -->
+    <rect x="20" y="80" width="140" height="36" rx="8" fill="#E6FCF5" stroke="#20C997" stroke-width="2"/>
+    <text x="35" y="104" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#0CA678" font-weight="bold">中</text>
+    <text x="145" y="104" text-anchor="end" font-family="'Microsoft YaHei', sans-serif" font-size="18" fill="#087F5B" font-weight="bold">150 万</text>
+</g>
+
+<!-- Center Title Card -->
+<g filter="url(#card-shadow)">
+    <rect x="220" y="116" width="460" height="150" rx="24" fill="white" fill-opacity="0.9" stroke="white" stroke-width="2"/>
+    
+    <!-- Update Badge -->
+    <rect x="390" y="100" width="120" height="32" rx="16" fill="#339AF0" filter="url(#card-shadow)"/>
+    <text x="450" y="122" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="white" font-weight="bold" letter-spacing="1">PowerBI</text>
+    
+    <!-- Text -->
+    <text x="450" y="180" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#868E96" font-weight="600" letter-spacing="2">IBCS KPI CARD</text>
+    <text x="450" y="230" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">卡片图细节大升级</text>
+</g>
+
+<!-- Decorative Elements -->
+<circle cx="200" cy="80" r="6" fill="#339AF0"/>
+<circle cx="700" cy="300" r="8" fill="#10B981"/>
+<path d="M800 100 L815 115 M815 100 L800 115" stroke="#EF4444" stroke-width="3" stroke-linecap="round"/>
+
+</svg>
