@@ -1,0 +1,530 @@
+[
+  {
+    "title": "财务/数据分析师必备！Power BI 硬核 IBCS 瀑布图发布，一眼看穿数据波动！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485822&idx=1&sn=7e1221135fd47a8999e9a055e5185ec1&chksm=c365b8d4f41231c23b0d9d136a6f0b385d68d60346917dfee3ae412b6b0d13d71aeb37cd8776#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqic6gicWxUae30waXhtr49ag40gPl3qQicibomzSHUQwicgEoVgLJpptzTNMw656yUt7gVoOHR1Jd4qicQ/0?wx_fmt=jpeg",
+    "digest": "IBCS风格瀑布图",
+    "date": "2025-12-27",
+    "timestamp": 1766838822
+  },
+  {
+    "title": "IBCS 卡片图又进化了：图表也能显数，单位自动切‘万/亿’，这细节我给满分",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485808&idx=1&sn=2bec516dcf6b0d24b013c9b0a5c72ed3&chksm=c365b8daf41231ccc2917f4a7a36538015b5233f2bcba0f482bf3627a9608dda5f2ce4a3a058#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqic6gicWxUae30waXhtr49agFdsk8f7g9Djo3U2JHKO4ogtpvUu1PrADh7BlUdsM0jfiaNic4lVCD7Jg/0?wx_fmt=jpeg",
+    "digest": "ibcsCard (高级 KPI 卡片组) 更新了！",
+    "date": "2025-12-27",
+    "timestamp": 1766822354
+  },
+  {
+    "title": "Power BI 的“代码化”革命——深度解析 PBIR 项目结构",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485798&idx=1&sn=8453d935e5765b02288832d67424b2fc&chksm=c365b8ccf41231da1f61b7edf371498bb8ead2d05d563cb307417ff47fd505ce40bc247d87ce#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwovXz33LcJ9pJNlbP3iboeckDWDsKASRicaibLgnkIJCdbsWCGbeSRTCt9azEM4WFZSmgL8ibcqHiaDwnQ/0?wx_fmt=jpeg",
+    "digest": "深度解析 PBIR 项目结构",
+    "date": "2025-12-20",
+    "timestamp": 1766230464
+  },
+  {
+    "title": "Power BI 神级视觉对象：IBCS标准+自由拖拽布局，这张卡片太强了！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485784&idx=1&sn=7db270fce141351ff35485c83cef2186&chksm=c365b8f2f41231e473c505757b091b4d7c1d8dee870cbbcdafe0b8b5a58d4bbcff5637b69fec#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwovXz33LcJ9pJNlbP3iboeckLj13GVNUsVcIiaJufgKy1LFIMHwhHichDD9DLiaNnI9XgbuhkxXb1IaHQ/0?wx_fmt=jpeg",
+    "digest": "大家好，我是 Damon在 Power BI 报表开发中，KPI 卡片是我们最常用的视觉对象，但原生卡片往往过",
+    "date": "2025-12-20",
+    "timestamp": 1766223874
+  },
+  {
+    "title": "如何在 Cherry Studio 中接入 Power BI 官方 MCP？",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485770&idx=1&sn=ace225710319c691cd4344f7bbf99576&chksm=c365b8e0f41231f6ad65617715b336afa71e09e4b6753210b358fe09486a0b51896886c9891f#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoSm5bpoIgPJaDJDtHzG08FwtTbteykAfCjggLcPFcwrPrqicaqumgYO4D9n5udQ6h3uhbbvNhBO7Q/0?wx_fmt=jpeg",
+    "digest": "如何在 Cherry Studio 中接入 Power BI 官方 MCP？",
+    "date": "2025-12-11",
+    "timestamp": 1765443630
+  },
+  {
+    "title": "Power BI MCP 重磅升级：不仅能写代码，现在自带“云端军火库”了",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485742&idx=1&sn=257be3afd85e613124e6e0c9f845764d&chksm=c365b884f4123192362dbb45d7203a1ff43ed82e1198685db8b02c9c81e2d56aefafbb787095#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoPgZ9lW5riaCtycW5rrZomrB7OAZeD5urCP7la4osia97AL017BRGiaicoveNgt6Unh6KVxZnF0QC8sg/0?wx_fmt=jpeg",
+    "digest": "距离上次发布 Power BI MCP 服务包 已经过去了一段时间了。这段时间里，我并没有闲着，而是给咱们的工具包来了一次“大装修”。",
+    "date": "2025-12-10",
+    "timestamp": 1765381263
+  },
+  {
+    "title": "Power BI 原生分解树做不了杜邦分析？试试这个带 KPI 的“超级逻辑树”！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485670&idx=1&sn=4bf3435bca6ddd8eb38acd1aa94e368e&chksm=c365b94cf412305a7ba25730d40118217a7806b44324f32e207267b34ff649c34da3c1801f32#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrTNia8ttGc9OicicKtNqdgaVY1fGUcnCuvwvJ00rwGcIHEBYYZic5r3x8vjuA6jp8ek0Ia5aOZ6S9ibsA/0?wx_fmt=jpeg",
+    "digest": "如何在PowerBI中轻松实现杜邦分析？",
+    "date": "2025-12-07",
+    "timestamp": 1765081020
+  },
+  {
+    "title": "告别筛选器窗格，自定义“度量值切片器”让交互更自由",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485664&idx=1&sn=a202c91230f4af4a9eb4a52cfd77b4ec&chksm=c365b94af412305c26ceba9c8682911361c1e1914986b6b2b4b5561b4802204d3bfb00a54059#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwp5cGiaTicVnYSSGqsdUNuhyVqLTzXfarEwtOcPpCRvNElhdgyCGpCHicMZSOSlR0VrnhiafMxUmjOdHQ/0?wx_fmt=jpeg",
+    "digest": "支持直接筛选度量值的切片器",
+    "date": "2025-12-06",
+    "timestamp": 1765021043
+  },
+  {
+    "title": "Power BI 实时大屏终极方案：无需流数据集，拖拽即用",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485653&idx=1&sn=967f359c0b328be2e8d315f072c7f096&chksm=c365b97ff41230697db0c8f59cfaa5eddd9e91f446e717b6bb2fada89b4abbd4297ba29e05ba#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpqrWYBEWxI2bfibo6Cj9DASibXJuTZWfEmcwhVSibYE6iaibxheNia8QFHXx6HwOdDRtbuMYPibWyxOq0JQ/0?wx_fmt=jpeg",
+    "digest": "PowerBI实时大屏的一个解决方案",
+    "date": "2025-12-02",
+    "timestamp": 1764655106
+  },
+  {
+    "title": "终于来了！支持「度量值默认选中」的 PowerBI 高级切片器",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485638&idx=1&sn=e0198d5e82a22e6edf42a192d902f696&chksm=c365b96cf412307ad7da38fae4da6cf9b148ea51cd1cdb373f9eb894911bf1ede6970b145c08#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwr79U4MrkUmXfz7rmiaN9s1gGnKVn14pJPkqnvYpiccAfaic3TTbo9K1VVv7oqBoYc8pSAxyv66dpmMA/0?wx_fmt=jpeg",
+    "digest": "一个支持通过度量值控制动态默认选中值的PowerBI切片器",
+    "date": "2025-11-30",
+    "timestamp": 1764500905
+  },
+  {
+    "title": "做报表、写代码、搞培训：把专业的事交给我们，你只管准时下班",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485638&idx=2&sn=090eb7da494c836096a1fa24fca42578&chksm=c365b96cf412307a9598d1cae0bf9079840f04124d158339cbd1b0c718d1652d230c1b747410#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwr79U4MrkUmXfz7rmiaN9s1gx3VhrR76sian7F4eqqo5r6JwFX5K73fdnKRbCKTtsqibxC96ye1YqBzw/0?wx_fmt=jpeg",
+    "digest": "Power BI 报表全案开发，视觉对象深度定制，企业内训与咨询",
+    "date": "2025-11-30",
+    "timestamp": 1764500905
+  },
+  {
+    "title": "Power BI 还能这样玩？零成本实现多用户安全登录",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485620&idx=1&sn=38636c672256286514c9ffbd1ab58373&chksm=c365b91ef4123008e08cc701dad16aaa920f89865d7eaec34a8e5f7ab1b9343919388a74dca7#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwopbE52IqC2gtgD928fje8PicSD7h1Egbqg7yN7ZSHXOTlPibQs9osIpXNyk12PPTKO28OwhfzKbRZw/0?wx_fmt=jpeg",
+    "digest": "如何在PowerBI中添加一个安全的登录页",
+    "date": "2025-11-29",
+    "timestamp": 1764411594
+  },
+  {
+    "title": "嫌PowerBI官方 MCP 太难？我手搓了一个免费版，连大模型都帮你省了",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485606&idx=1&sn=dd04045a0888a67e07465041dfb6c3ac&chksm=c365b90cf412301abaa833fab301e252d166e4d737946bed77da3cf10c2864fd3b1938d61b70#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpBKCfzmqQFJfwMzPQcNicaogQvV4icOOz8SmZiatyHtdtGcRXYLEQctv85a4Owc5wEStVjhh1g9FgWg/0?wx_fmt=jpeg",
+    "digest": "带你走进 AI+BI 的世界",
+    "date": "2025-11-22",
+    "timestamp": 1763801383
+  },
+  {
+    "title": "保姆级教程：如何用 AI 直接控制 Power BI 建模？(MCP实战)",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485507&idx=1&sn=09e72b056eb861968319ecd9f7b995e5&chksm=c365b9e9f41230ff01a38be8c2d13ffc313c9cc267f0116c72c01d422f44354ecc1c5d9a5b75#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpwSnd6oAKic6obeUhF2d77UWCwwr4lD6M6qiaicBWlqpXMg6xu98KsdFF3b1mjj4qY2KjQbkQOicpLxw/0?wx_fmt=jpeg",
+    "digest": "保姆级教程：如何用 AI 直接控制 Power BI 建模？",
+    "date": "2025-11-21",
+    "timestamp": 1763655812
+  },
+  {
+    "title": "Power BI 总弹登录窗？一招关掉它，还你清净",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485467&idx=1&sn=9e2d14bdebf7a85ed7909aaf03a5d9cd&chksm=c365b9b1f41230a7440e4c48247532193f87646c79e6473fbb935ace6c561769d8bd87326029#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpwSnd6oAKic6obeUhF2d77UxvOiaQV53Joh7XVRJj58iadBMDBUyTcJyhD04RMv8yDwKumk34iaicIic4Q/0?wx_fmt=jpeg",
+    "digest": "最近有不少兄弟在吐槽，自从更新了新版本的 Power BI Desktop 之后，遇到个特别膈应人的事儿。",
+    "date": "2025-11-20",
+    "timestamp": 1763628716
+  },
+  {
+    "title": "Power BI 11月更新：AI Agent 终于把手伸向了建模？",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485454&idx=1&sn=3452167b9d0b461caf71c30ed916fa77&chksm=c365b9a4f41230b2cb3d15b5a9bca37634dd79db06716b5bbe7dbc3bdec9e9bb551d8cf6d912#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoJVa6BWRKibxqQ7u9xM3pD0V1Bo3nxL9Eib2eibuP9UhVbRpYM0p7CUgEqjWtU8iaojmUUvP5chQ3f4w/0?wx_fmt=jpeg",
+    "digest": "11月的 Power BI 更新来了。",
+    "date": "2025-11-19",
+    "timestamp": 1763517764
+  },
+  {
+    "title": "PowerBI形状地图最佳实践",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485431&idx=1&sn=0f4738c99105fd4a348254644883939f&chksm=c365b65df4123f4b397c3a76dbca66e125d038d9dea02f64ac6dd9967a503ed6e0fc904414d9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqW0gDjNWv8mlib2lNic2r8HqEqQs29XWUpQK0jDPHSdko5BojSOJBXHicMXTYv5vKRVK4iabJrc0KjYA/0?wx_fmt=jpeg",
+    "digest": "前些天我发布那个为了“干掉”地图偏移问题而亲手打造的 视觉对象Power BI 自定义层级形状地图视觉对象。",
+    "date": "2025-11-17",
+    "timestamp": 1763389138
+  },
+  {
+    "title": "Power BI 自定义层级形状地图视觉对象",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485411&idx=1&sn=0721f45ba74ec1e1006ad66363929c6a&chksm=c365b649f4123f5f685e75d38bace9804e21343015e24db6b402c1b6536e4330d36187297218#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpicGDZicIHUuJDVqKsOtguLKOebar8nGIuGlvsYhJlcB6bcUnqr19BxvZoC6Y0HzdFc9AuLlnlPQfg/0?wx_fmt=jpeg",
+    "digest": "Power BI 自定义层级形状地图视觉对象",
+    "date": "2025-11-16",
+    "timestamp": 1763268205
+  },
+  {
+    "title": "新产品定价难？用 Power BI 一键搞定“价格敏感度(PSM)”分析！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485401&idx=1&sn=198690124db4fadc871e48cbe39c06de&chksm=c365b673f4123f65ca94563988bb0bc73188019a404817b0a2ac5a72447bf947024902562a0f#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqicYpZLALXgt4T4FhyCibMyeaHf87Y0zadt7QicaBX6scQcgSD2A0pWuicIFbBx4fiaN9KQEknYJgN9lA/0?wx_fmt=jpeg",
+    "digest": "价格敏感度模型 (Price Sensitivity Measurement, PSM) 是一种成熟的市场研",
+    "date": "2025-11-02",
+    "timestamp": 1762053513
+  },
+  {
+    "title": "零代码生成PowerBI波士顿矩阵",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485387&idx=1&sn=4bdb5c29cba202c7532a78ba16d9ca41&chksm=c365b661f4123f775170737b1a070f6dbf4f652510a85e17f8652f2e622125d68d23341d5fc6#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwppLzA6Wd26ianrQPloYBtiby5xkKe5A9ibdaThZURKydoBtMhoPcj3F2KdkHPoT501nibicOichrytLZug/0?wx_fmt=jpeg",
+    "digest": "你的下一个业务增长点在哪？用这个 Power BI 神器一键看清！",
+    "date": "2025-10-25",
+    "timestamp": 1761405463
+  },
+  {
+    "title": "还在手动计算 ABC 分类？这个 Power BI 神器帮你一键搞定帕累托分析！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485371&idx=1&sn=8f4a0e00f33fd5969ee3eb6da63d0bf4&chksm=c365b611f4123f07fd232fc44c3a5d18b39173f5982cab33661e3fa47ee7aa03eb25eed32c05#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwo67UWLErQbiaOsxCJD9sRDibqaT7wm1N6ZCKxGwS3D0iaUgyd00u9fqxQtaPv3Px6CrNZEnEY8TgFWg/0?wx_fmt=jpeg",
+    "digest": "一个真正智能、高度可定制、且能一键生成的帕累托/ABC 分析图。",
+    "date": "2025-10-20",
+    "timestamp": 1760973214
+  },
+  {
+    "title": "Svg表格无法导出？这个PowerBI“导出按钮”将终结你的痛苦",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485360&idx=1&sn=e1d230bbc58ea4f5a1a26ecdc2b8d3df&chksm=c365b61af4123f0c584fc1069e7651faead88fc414adc0a7f97e2b682512537b21f0745dbfcf#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqWm6DXdJlOgNXeSR9Uh303W7EVLf2teMBaRmf52vFiaQK2TgmRgoSAtOz9deVqkGKe0uiaY2QGoQibw/0?wx_fmt=jpeg",
+    "digest": "",
+    "date": "2025-10-19",
+    "timestamp": 1760881688
+  },
+  {
+    "title": "在 Power BI 中，用 DAX 函数构建高级 IBCS 图表",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485350&idx=1&sn=8c66ab71ebc380631c5196d9f397bac5&chksm=c365b60cf4123f1af9145deb237d4959a0acaff1d8cfdcc9943447269aa3a844cc7dadf0a847#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqWm6DXdJlOgNXeSR9Uh303bcYh0CVd1sQfjPdMUTTlRjWPamOsviaA1qJOQ0BLV5sYQ0LNYHGab7A/0?wx_fmt=jpeg",
+    "digest": "摘要: 本文将介绍一个全新的 DAX 用户定义函数 (UDF)——NBIxq.Svg.ibcsColumnVa",
+    "date": "2025-10-19",
+    "timestamp": 1760840555
+  },
+  {
+    "title": "Power BI 十月更新又在“挤牙膏”？别慌，我帮你划出了这 3 个真·重点",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485343&idx=1&sn=75fd313c12aa9e87e94faf2a7c67e3e9&chksm=c365b635f4123f2324c33eb535cd296de7275d7f0f239be0d673681528bd321a21f16011afa9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrp6M1LhUGQkeAY4q3QB7s4Cls98EdSGgBiavBicCfydBSHUK3vU8gUUkITGzqE8ibMdMHxhQAiajsCxg/0?wx_fmt=jpeg",
+    "digest": "每月一度的 Power BI 更新来了。",
+    "date": "2025-10-18",
+    "timestamp": 1760756047
+  },
+  {
+    "title": "深入解析 Power BI 格式化层级与语法陷阱",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485308&idx=1&sn=81a8fbebf6c44fd6829d5a0162550909&chksm=c365b6d6f4123fc033d458b9a6f457d9f8ac0c992d955269c55ae3f05b6dcf85691b7186b902#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqJlicwiarVXsqc1st4gMy38wpta4eqZcX5O723MjHRrusdzDKQnOJic4bqpicO5v22UVTuwcE7n4vaLQ/0?wx_fmt=jpeg",
+    "digest": "Power BI Desktop 中的自定义格式字符串，可以精确控制字段在视觉对象中的显示方式。",
+    "date": "2025-10-15",
+    "timestamp": 1760536320
+  },
+  {
+    "title": "10秒，为你的PowerBI添加200+自定义函数",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485296&idx=1&sn=6a110d2a955c44393baf9eafd799d89b&chksm=c365b6daf4123fccce3646016f9d71fc22354a6edcdb0922bfb86c9e815adc65ad67506eb2a9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqv1IianpMoDMRbakCGGdZn2q26aqkdFgYqhWXvctFfG6TvLrubrlg9VmYCCbKbtljcE5dE2icx5Cjg/0?wx_fmt=jpeg",
+    "digest": "",
+    "date": "2025-10-08",
+    "timestamp": 1759935141
+  },
+  {
+    "title": "DAX-CLI 重大进化：从命令行到图形界面，重塑你的函数库工作流",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485287&idx=1&sn=638570eceba3a25b6d9fa24e6a5eee21&chksm=c365b6cdf4123fdb65b211371dbf84cd14aa0d786809a36e882077b972c67943f22ad6d5c9b4#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqv1IianpMoDMRbakCGGdZn2AXLqZT0zxDtrOTo1RCibKYdtqHIIAIWs3bOKibzhExTmev6LPbZ7g3BQ/0?wx_fmt=jpeg",
+    "digest": "摘要: 各位 Power BI 开发者，请注意。那个旨在提升 DAX 代码复用效率的命令行工具dax-cli，今日正式迎来了一次里程碑式的版本升级。",
+    "date": "2025-10-08",
+    "timestamp": 1759898985
+  },
+  {
+    "title": "SQL vs R vs Python：数据操作终极对决，到底谁才是王者？",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485264&idx=1&sn=3fb81578f1568f4afe5fee2a9df40b6d&chksm=c365b6faf4123fecb12ef26d3549f041c45cff43a4445c84ad5cb30ea51176729cea89cc9238#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoTb7X8Sf0QvoX7RGnjq6U8BmZ7hSEXC9cLrhlepGAVibNnicVU69iaQomMl76lk62hQWzUNLKafDDYQ/0?wx_fmt=jpeg",
+    "digest": "SQL vs R vs Python：数据操作终极对决，到底谁才是王者？",
+    "date": "2025-10-07",
+    "timestamp": 1759844859
+  },
+  {
+    "title": "你的日期切片器本可以更“聪明”：PowerBI日期切片器更新！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485247&idx=1&sn=36e3ebf899e71af5b54fe32b80c29ef2&chksm=c365b695f4123f836a3086f6153b820357b4869eb5dd0ec0dff1d8486205601820e155604fd9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqhauCweWvTtxSZTRG284n679w7ZxHibTdeAxJ7lIdAEYgAgrAlQKknXPVDSH2XKptbic4GIE1XK5Ag/0?wx_fmt=jpeg",
+    "digest": "那个曾帮你解决“默认日期”难题的智能日期切片器，今天迎来了史上最重要的一次进化！",
+    "date": "2025-10-04",
+    "timestamp": 1759583862
+  },
+  {
+    "title": "代码“洁癖”的终极福音：认识一下快到“作弊”的 Python 检查器 Ruff",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485238&idx=1&sn=38d3eccb01eb53c9ca98c4b5e3d1f16e&chksm=c365b69cf4123f8acd8318f285bf2a6d8516d71cc5479ac51ee9dca93d1ce8c6118608cf296c#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpIPCuQWeJqdsVGYTam2pHwkS51uKlXNpMdibUPdq8RSZibzZkaVAy7zWDFS3w6ic2uURzenJCtKgODQ/0?wx_fmt=jpeg",
+    "digest": "摘要: 如果你还在忍受 Flake8 蜗牛般的速度，或者被 Black、isort、pydocstyle 等一",
+    "date": "2025-10-03",
+    "timestamp": 1759449191
+  },
+  {
+    "title": "Pandas 终结者？新一代数据框王者 Polars 全面指南",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485237&idx=1&sn=8f7704a4646ddf51a90d5a8fd32fbdcf&chksm=c365b69ff4123f8945179c571b47843e84b36a0a20a70c4c5aa42df2642c4f3a9cf67ac9d04c#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpIPCuQWeJqdsVGYTam2pHwResIg0zZI6ksP2kLuRTFr8H8QmAGWNy6zP0HbgOJPfZIUwladfgMAg/0?wx_fmt=jpeg",
+    "digest": "今天，一个足以颠覆 Python 数据分析生态的“性能怪兽”来了，它就是 Polars",
+    "date": "2025-10-02",
+    "timestamp": 1759378769
+  },
+  {
+    "title": "你已经是一个成熟的报表了，要学会自己分析数据",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485219&idx=1&sn=149cc0e1980a0dbfb5d20e92b2ca2598&chksm=c365b689f4123f9fbe6135fbba8409716a8aabffe8d3f7c1f31300f7a6dc5dbf23105e2c9786#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqJPDwHE60y0NozD19RiaU0EQm4NSiasa5HHfbTXMpOicWyJmVBicWQbwJxezrnDmEnMGsoJ8ZEiaOj3UA/0?wx_fmt=jpeg",
+    "digest": "PowerBI通过视觉对象接入大模型",
+    "date": "2025-10-01",
+    "timestamp": 1759300393
+  },
+  {
+    "title": "感谢粉丝“天蓝色眸子(偷喝牛奶版)”，我的日期切片器迎来重要更新！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485196&idx=1&sn=d45f283f607dda9b16a65671c4765444&chksm=c365b6a6f4123fb00d15c4063a7d1cf021f49d42add536a737e62b6fde47a40b7b92ab908ebd#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqljes7pVz0ReVnYwccVBmSohPQ6ntV8q9W1up18VR63EmCnicn07mtiaCmvemMZ3lPg3ocCvMkUyWA/0?wx_fmt=jpeg",
+    "digest": "社区的力量，永远是我前行的最大动力！",
+    "date": "2025-09-27",
+    "timestamp": 1758986782
+  },
+  {
+    "title": "我为 Power BI 写了一个“包管理器”，像装 Python 库一样安装 DAX！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485184&idx=1&sn=8a6e78a9c6db3e6cf0f13ee30a407ce7&chksm=c365b6aaf4123fbc50332465435fb649e206231713185e5d09b519cdce52ef9bf6ce3a0f74f8#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqljes7pVz0ReVnYwccVBmSWDI2pD3pnOXkCibkicsAicAFbicqeK2ibmeUpibqPAVaFgiaM9HrDk3HOZKKA/0?wx_fmt=jpeg",
+    "digest": "今天，我将向大家隆重介绍一个由我[不止BI]知识星球专属打造的命令行工具——dax-cli，它将彻底改变你管理和复用 DAX 代码的方式。",
+    "date": "2025-09-27",
+    "timestamp": 1758982504
+  },
+  {
+    "title": "受够了技术内卷？我建了一个“反焦虑”的 Power BI 武器库，今日开放！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485149&idx=1&sn=ab9c856f5c03f4b8f1ae17e996794401&chksm=c365b777f4123e611292c272be11a6e3b34ebbd8502e7b08135d53c4d08a8485f0b5f6a5cef4#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpeiaStuSGiaKmmlRoEwcONNTWPLWxiblglWic6RPCAqezktCKdkLia8dVdtliaRXvvwCsUPhlWic3V6NFMQ/0?wx_fmt=jpeg",
+    "digest": "学 Power BI，我们是不是太“卷”了？嘿，各位朋友，我是 Damon。",
+    "date": "2025-09-27",
+    "timestamp": 1758908681
+  },
+  {
+    "title": "DAX 的终极魔法：在 Power BI 里用代码“画”图！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485136&idx=1&sn=f8469ccdbf3367cb18f4e91ebe82947b&chksm=c365b77af4123e6cd0ebae20a11d147625a8519d16f5cfc14e8219d2cd4a12299b29b0ae51b6#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwowr0zcTiaWXf1FjswElekRDFe0q9cST22kjuaich8ot7IU0m5ibJcPIb0pS2C8PwyX0vZFJRW0sQpSA/0?wx_fmt=jpeg",
+    "digest": "摘要: 你是否曾惊叹于那些 Power BI 报表中超出原生限制的、极其炫酷的自定义图表？",
+    "date": "2025-09-24",
+    "timestamp": 1758643979
+  },
+  {
+    "title": "当 Power BI 遇上 Python“魔法”：用 PyTabular 库让你的模型“活”起来！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485129&idx=1&sn=704513301b56b1741d4e99173afdc189&chksm=c365b763f4123e752be84070b5b793bf04cb23e964ad0d5a77837d1d5f72bb3dcca642019e12#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrj5lWtJlMlOJs7BATwt3zibXbDicwpL9Gq46YE9t4SxwHR2licrH7OIY0REb9aoTsFkM5SylONeQYgw/0?wx_fmt=jpeg",
+    "digest": "",
+    "date": "2025-09-22",
+    "timestamp": 1758546138
+  },
+  {
+    "title": "忘掉 DATEADD 吧，DAX 时间智能的游戏规则已经变了",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485122&idx=1&sn=ecd40d5dbcb32d708b8a9febdbc294a5&chksm=c365b768f4123e7e4047f38d43222558d8f30b4fdab9a36e4dbec967cc55b513d0c9fe3483cd#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrVfjlaib7cPmibEbzQba9jefoDL2wspTKp6JJ6UaJa1603tl4up8l8NYgA5TM85fncLOjRxyIYt6iaQ/0?wx_fmt=jpeg",
+    "digest": "摘要: 如果你是一位经验丰富的 DAX 玩家，那么 DATEADD和它那套经典的时间智能体系，一定深深刻在你的",
+    "date": "2025-09-21",
+    "timestamp": 1758459018
+  },
+  {
+    "title": "DAX 迎来“包管理”时代！DAX Lib 横空出世，告别重复造轮子！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485108&idx=1&sn=b72dcc93936da47effb6b6bea424446f&chksm=c365b71ef4123e08dd5040f9e8b5e617893689b773f386c16935b455c0d46627678be7dfddf2#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrVfjlaib7cPmibEbzQba9jefViabJvxDr7wWwRGFc95sDv7pZfibO1VxxQ0OXLkZ5gqicar5AfPYWBia3w/0?wx_fmt=jpeg",
+    "digest": "摘要: DAX 玩家们，欢呼吧！那个我们梦寐以- 求的“代码库”终于来了！",
+    "date": "2025-09-21",
+    "timestamp": 1758422423
+  },
+  {
+    "title": "别再死磕 Desktop 了！你和 Power BI 高手的差距，就差这套“外挂”",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485095&idx=1&sn=4c84d1ed9675fd9ceefdb16561a98618&chksm=c365b70df4123e1b204a9c0c2b23831bdb4467e78fb1032dfe4567f257e353061618b2f094bb#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqLicHGxg96wiblOxuOIQYiamugdyIcV92sA3tbpiahPzPIJtN1ZM0xQbPO9j9Vxibibjgcjyws6p4ia88zQ/0?wx_fmt=jpeg",
+    "digest": "摘要: 嘿，朋友。你有没有感觉，自己的 Power BI 水平好像卡住了？报表做得又慢又丑，模型优化更是两眼一抹黑。",
+    "date": "2025-09-20",
+    "timestamp": 1758299292
+  },
+  {
+    "title": "DAX 中最危险的“双胞胎”：一个被忽略的空白行，如何摧毁你的模型？",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485031&idx=1&sn=80b14c460b658edd62ef3f6f7ea8d89b&chksm=c365b7cdf4123edbc9458eccea30164e670e1a7b03060114e87967b00b821913d0d0e96925a8#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoCtkchICRkNEB1jBkhm32kbHuhAHdoGlQCl1WqO1uSiaLNiafJp6NCZlWpjyEMmrqAJd2htkQjnic9Q/0?wx_fmt=jpeg",
+    "digest": "写 DAX 时，DISTINCT 和 VALUES像一对双胞胎，总让人觉得可以随便换着用。",
+    "date": "2025-09-18",
+    "timestamp": 1758126630
+  },
+  {
+    "title": "DAX史诗级进化！Power BI 9月更新：UDF（用户定义函数）来了！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485022&idx=1&sn=93766e42b4eceeee7ac9a3c39eda3f1b&chksm=c365b7f4f4123ee2d76020b78502c85967fcb5652ad5f54c1f1a62efe2a328a40b4e1cac43f9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpZicyEcia1gMnibzKlibIiblKClnIkSH1OmyPpt8XLq9z6yVmttY3ow2etGjzulS1g6a0pLibCVWVfBLWg/0?wx_fmt=jpeg",
+    "digest": "2025 年 9 月的 Power BI 更新，是一次里程碑式的革新。",
+    "date": "2025-09-17",
+    "timestamp": 1758040313
+  },
+  {
+    "title": "快到离谱！Python 100 倍速革命，终极工具 `uv` 全面指南",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247485005&idx=1&sn=9087603fa5342d58d5588be4d711f7cf&chksm=c365b7e7f4123ef1a17dc2ca5d8881fb3e0f27b7b2e70abca1afaf3ec3d6b1f464f3cb7eb93f#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqY28rp1ptrP18Zyfx9YiaviaTXG9RoVBZdnLj0F348oLiaDY363fRPdKqf0CxU4Ywd9hcX0JRMpxtdw/0?wx_fmt=jpeg",
+    "digest": "Python 的包管理，一场旷日持久的“战争”。Pip 的慢，Conda 的重，Miniforge 的选择困境……现在，是时候终结这一切了。",
+    "date": "2025-09-15",
+    "timestamp": 1757947923
+  },
+  {
+    "title": "Power BI 可视化工具箱 (三)：告别单调数字，玩转原生 KPI 卡片",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484993&idx=1&sn=ee1227afb700024e25e5423c48545d1d&chksm=c365b7ebf4123efdad9b5390d4168f2c1998e7e9dd7d961245fed32306cee033c1bb82349175#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqtfwZtNycBpUaSibgfwbiau6Z9Nkfic1Ricicytt0icxx0X0C3An1OHibBfmQYKoUiaaXStyM9jLldxwicDuw/0?wx_fmt=jpeg",
+    "digest": "❝一个出色的 Power BI 报告，离不开醒目的 KPI 指示器。它们是整个仪表盘的“眼睛”，第一时间告诉用户业务的“好”与“坏”。",
+    "date": "2025-09-14",
+    "timestamp": 1757863003
+  },
+  {
+    "title": "Power BI 可视化工具箱 (二)：让你的折线图“开口说话”",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484958&idx=1&sn=3f85e5104973036429efb784bb17c0d3&chksm=c365b7b4f4123ea2902b0ca7045359f602b0ea66f7b9707d2a4cf59e92adcc316b569542f8a2#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqtfwZtNycBpUaSibgfwbiau6R25ian6BItROqybt6wJHiatibVIibHQrp5dP5vWE1O69icN5mg8W41ia278A/0?wx_fmt=jpeg",
+    "digest": "❝摘要: 在上一期的柱形图盛宴之后，我们继续深入探索来自data-goblins.com 的“Power BI",
+    "date": "2025-09-14",
+    "timestamp": 1757809000
+  },
+  {
+    "title": "【pbipy 中国区特别篇】让你的自动化丝滑运行在世纪互联！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484889&idx=1&sn=bebbf16df82669926ef40ea02fbfde0d&chksm=c365b473f4123d651d38fbcf742e3968f1a86e3e764c2696fb3eaaea8f005d601684e39c45e0#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqtfwZtNycBpUaSibgfwbiau6UkINfricpv9gWeJJD1ZL3ZgUsLrYn1GTQdMscpUskibiaAqqXpwUazuGA/0?wx_fmt=jpeg",
+    "digest": "如何在世纪互联实现PowerBI自动化",
+    "date": "2025-09-13",
+    "timestamp": 1757733300
+  },
+  {
+    "title": "当 Python 遇上 Power BI：用 `pbipy` 库开启自动化运维新纪元！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484880&idx=1&sn=12d4210e2518c294e2e012142b09868e&chksm=c365b47af4123d6c837332fb2d43fb09fee3785206036c48e8a59e79f52afbee580218d20688#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwo321DicWalUw3ARB8A8J86PGeMl6xQBNjsJmUYhibj91To1TFykypYqMGD8yhU9yGHfIx9aoFF7ZCQ/0?wx_fmt=jpeg",
+    "digest": "❝你是否曾想过，用代码来批量管理 Power BI 的工作区、刷新数据集、甚至执行 DAX 查询？",
+    "date": "2025-09-11",
+    "timestamp": 1757605283
+  },
+  {
+    "title": "告别 Anaconda！10分钟搭建 2025 年终极数据科学环境",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484867&idx=1&sn=bf74b150411940d2f613eb2672563cd6&chksm=c365b469f4123d7f1f4f50b805375e7fd6ac8718eae002923e51b38ef55be0356d483215fd0d#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwo321DicWalUw3ARB8A8J86PPfhItL6xu3gKehhAzlD1Q8bObyQKlaicyc7OFIAWxhclx8tKeUqIyuw/0?wx_fmt=jpeg",
+    "digest": "❝还在用臃肿的 Anaconda？还在忍受 venv 和 pip的龟速？是时候升级你的装备了！",
+    "date": "2025-09-11",
+    "timestamp": 1757603473
+  },
+  {
+    "title": "2025年，数据分析师必备的三大神器：Python、R、PowerBI，到底哪个更适合你？",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484826&idx=1&sn=ce5e59546ff8e136282fd49759e6e313&chksm=c365b430f4123d2658ae1384e1f5e3bd27b518d517f47130ce3ff08b99691e4d6b8b10d48ae0#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrSFMTVsdvV1t31k0ZPRib7gg1430MXxiayicbwRWccykibq5lnicvIbL8uBG9JUzUo3pzOvGU2qxFAmyA/0?wx_fmt=jpeg",
+    "digest": "2025年，数据分析的世界风起云涌。无论你是希望转行的新人，还是寻求能力突破的职场人，选择正确的工具都是成功的关键第一步。",
+    "date": "2025-09-10",
+    "timestamp": 1757434306
+  },
+  {
+    "title": "【重磅发布 & 永久免费】Power BI 终于有了完美的日期范围切片器！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484802&idx=1&sn=05e060c72ef45f2b8ae4568c859dc75f&chksm=c365b428f4123d3e5860e309bf05727a3f65df2754325c27172e2bc8ef2d5f8fd9d732678ec8#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoewDOrOp029q7tzrgnyU3mVabP1DCOz6bKicBAb387UuRm1FY77YxpaLA78r04HbCArj0U2TAog3Q/0?wx_fmt=jpeg",
+    "digest": "如何让你的 Power BI 报告“活”起来，打开就自动展示本月或近30天数据？别再研究复杂的 DAX + 书签了！我开发的这款免费日期范围切片器，让你轻松实现动态默认日期。它简洁、强大且完全可定制。快来给你的报告装上这个效率神器！",
+    "date": "2025-09-07",
+    "timestamp": 1757175607
+  },
+  {
+    "title": "不想做丑柱形图？这 18 份 Power BI 模板直接抄！（附文件）",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484763&idx=1&sn=8ef4572582a0a89dbe302a18c52a78ef&chksm=c365b4f1f4123de7f9ba4fc4117098fd6554a19428c5b1aaacdb4a91d28607e65a3e26ba71cf#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqSmcI0Lh0wqTaBfwK1kpia9dZ4LqzjGbPRSiaiawvqsnpIvzXwqRDQ3Vh6cbxibCx5thZgr7FnCZbaSg/0?wx_fmt=jpeg",
+    "digest": "👀 还在手动调柱形图颜色、加数据标签？",
+    "date": "2025-08-31",
+    "timestamp": 1756626023
+  },
+  {
+    "title": "3分钟揪出“僵尸表”！我用 30 行 Python 把全公司 200 份 Power BI报告翻了个底朝天",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484693&idx=1&sn=c9031cf42cdcf60c02ab74f7466e19a7&chksm=c365b4bff4123da9b53d07e85ba4929cbf0511f0b64bf2a383d8508eca1118198aa9ccecbae9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrULvY35iaIZRPGy8agUhcEVzJy9dnkWByGb6L4iauHC9bYr6r0NTZGicD4Bt5WYAJVVicJ3ic8oeDqdRw/0?wx_fmt=jpeg",
+    "digest": "👀你是不是也遇到过这种社死瞬间？“把 fact_sales 下线！”“好嘞……等等，好像有 20 个报表还在用它？",
+    "date": "2025-08-12",
+    "timestamp": 1755004682
+  },
+  {
+    "title": "R语言高手进阶之路：掌握这5个数据整理级别，让你的代码更优雅！",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484683&idx=1&sn=7768ae0447ec04f971dc3abb00c223d7&chksm=c365b4a1f4123db7708c73b40b1f0625f69d2ce8baadea038a076546e5233592de2ff8ca1b4f#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrME5diaUAoB8mpTScqNlHaWRdr5FOoBriabwdbK4UTdLibGpIibbhq900zq5WgnticMzruQxD1tyAppug/0?wx_fmt=jpeg",
+    "digest": "嗨，R 语言爱好者们！你是否还在为繁琐的数据整理工作而苦恼？想让你的代码更简洁、更高效吗？",
+    "date": "2025-08-10",
+    "timestamp": 1754814557
+  },
+  {
+    "title": "PowerBI新技能：使用Deneb模板绘制动态树形图",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484664&idx=1&sn=20f5aaf0e837314ab1db4fecc736aaf6&chksm=c365b552f4123c44ea0fdfe9c7f6293bba6b931d05a1efa10afd446be4832d9ce61756dc9fc5#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpLgqeT64icNbqYjJDEfliaMDjGH8M49n4OP7Pov2AY9ZFyS0YCYPzjViceJoAnIZxzrial2wbJsDJl8Q/0?wx_fmt=jpeg",
+    "digest": "",
+    "date": "2024-12-30",
+    "timestamp": 1735572966
+  },
+  {
+    "title": "R语言箱线图技巧：如何添加p值标记显著性差异",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484629&idx=1&sn=66732bc3b1274ceec639387c8ce7905d&chksm=c365b57ff4123c690612a963a3786090894d469019182b9c5ca5fff6847f584f7d65ac388685#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrib5iamQ2k0z7wUfP1rBu8SBxh9zbU8NHbcYUl7iajniabcqnHuIdiaE0NFR3rKWDtMAxb4yDXoxxCZSA/0?wx_fmt=jpeg",
+    "digest": "R语言箱线图添加p值",
+    "date": "2024-12-23",
+    "timestamp": 1734967618
+  },
+  {
+    "title": "R语言时间序列分析（三）:时间序列预测",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484610&idx=1&sn=14a4699861d19e7dfb6fcc47b5f19b37&chksm=c365b568f4123c7e0954bbfabd59bf433eddd8560e50f86e52cfe11bbc0826756387b87196d2#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwq0TvgEWnVnn6pLdtmjQgwxAJmWGRd9uw4mCz440tkBLn5ibgI5wjAFn27jBhan8ZW2XdibOB4PlJmQ/0?wx_fmt=jpeg",
+    "digest": "R语言时间序列分析（三）:时间序列预测",
+    "date": "2024-12-01",
+    "timestamp": 1733054251
+  },
+  {
+    "title": "R语言时间序列分析（二）:异常识别及处理",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484529&idx=1&sn=b6e221edc3ccd9e0bc3b537202c917cf&chksm=c365b5dbf4123ccdc4c16cce4edb7c4c23263e3e511855acb1e1b5f9f8a592868f3c8148dbca#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrfl3AzbiaicJjXjjkH9DjZRbmCDZwiarlkzT2QoIFd1hxxq82EpoG91N2mvPhk4OYZSica19FW8aXkOw/0?wx_fmt=jpeg",
+    "digest": "R语言时间序列分析（二）:异常识别及处理",
+    "date": "2024-11-23",
+    "timestamp": 1732368785
+  },
+  {
+    "title": "R语言时间序列分析（一）:基础时间序列操作",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484462&idx=1&sn=f17ed321a7517ac12391bc41330c79b9&chksm=c365b584f4123c92a465c6b073b09d64d359aaa9c7d44512a3bc0d12568fd638cb49caabb523#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqqiabKbo7jrglhyQDZ6ic6PeqzSmM1BHcwgksS9WTKPPM422Ln6ElCHiawVrZngXN0jXkxSOcxI16nA/0?wx_fmt=jpeg",
+    "digest": "R语言时间序列分析（一）:基础时间序列操作",
+    "date": "2024-11-23",
+    "timestamp": 1732292700
+  },
+  {
+    "title": "R语言leafletZH包绘制中国形状地图",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484387&idx=1&sn=3fcc186412ad3f296b46ce5c9cecdb86&chksm=c365b249f4123b5febdf6b76cc93a40ae3d77f179e76814ff302c6636edfe75589221b144cae#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwp48rEmXzMVCEibTib9Vg7Ovu4NcX7LZac78KMqBA5Dk9FZs3oMymLk8WueC45ccoOeVlRQhyibC8ntg/0?wx_fmt=jpeg",
+    "digest": "",
+    "date": "2024-11-21",
+    "timestamp": 1732204329
+  },
+  {
+    "title": "R语言fuzzyjoin包进行模糊匹配",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484028&idx=1&sn=9129f5c48cf1afb25844447c7d6dd44b&chksm=c365b3d6f4123ac0e24ab5de74962e858657c05d30aa63d6e31cdf6f4abfc22e3faa2e1b56aa#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoyD5Zj5nqPVHr4CPN0PBAS0zUxorf8GtichMXC7vX0rfXnHxahkolkM6Cib3MXj7GH3LG7OeCwENJA/0?wx_fmt=jpeg",
+    "digest": "fuzzyjoin包是R语言中用于模糊匹配和连接数据集的包。它提供了一组函数，可以根据模糊条件（如相似度、距离等）来连接两个数据集，从而允许用户在数据集中进行更灵活的连接操作。",
+    "date": "2024-05-14",
+    "timestamp": 1715691650
+  },
+  {
+    "title": "【PowerBI】手把手教你使用Deneb模板",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484020&idx=1&sn=566941fe055dc82119162564d2d232cf&chksm=c365b3def4123ac8605384d43078d79a55bb2c3a65a7dfe57ed3bedbbcb93161844f48361fc5#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqd9AdqgicDM4XNjNgWp7AicXiaRBpWeWkXQMX1MmvcpJwtTbgLF5njXtVnicuRibPoH4DzRH0652xgtZQ/0?wx_fmt=jpeg",
+    "digest": "Deneb提供的模板导入导出功能,利用这一功能可以轻松复用的Deneb图表",
+    "date": "2024-01-27",
+    "timestamp": 1706352716
+  },
+  {
+    "title": "PowerBI自定义度量值单位为“万”/“亿”",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247484005&idx=1&sn=5521f0d746679303dbef881dd785d158&chksm=c365b3cff4123ad9810a3519d494afb1c400ce44e2dc956cc2ff7a2fc7a1606e74e5e072aeb9#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqceyvMbvSyLNy3bhNvlLFGgM0L4e9YukeRJ413dTaeqskPM4m1icicKFnAmw062GkqGHM3dd212H9A/0?wx_fmt=jpeg",
+    "digest": "今天给大家介绍如何利用计算组结合动态字符串可以修改字符串格式为“万”与“亿“",
+    "date": "2024-01-24",
+    "timestamp": 1706060898
+  },
+  {
+    "title": "超高颜值PowerBI通用模板",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247483976&idx=1&sn=38371265bb4bf789578b751849e37585&chksm=c365b3e2f4123af489503a1bbfbf516298a92bab192e49bbf8c57f0ce95fe4aa2f8ba83a82a2#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwqk8eQcsWYDPjzAshjCJgfWGlwibeKo7dWjT9W0StWnoM685Ys1zkWwIt3hj3iaHSum0iaLibcbaHqbFA/0?wx_fmt=jpeg",
+    "digest": "原创PowerBI行业通用模板",
+    "date": "2024-01-01",
+    "timestamp": 1704097322
+  },
+  {
+    "title": "R语言绘制三线表",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247483926&idx=1&sn=6ad9cc28f88a5641bb92a62b0b40bea4&chksm=c365b3bcf4123aaa751448832d05c9187280d2e4fe4e4e1374f7a44adbdcc53143db72383d8e#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwrvZibtc3V9el4aw3NicvDXomdZZS39dsrxNEABicurRft1TvN1rxFpnTfB8coYrLicMY3AQxPmsHe91g/0?wx_fmt=jpeg",
+    "digest": "使用R语言的gtsummary包绘制三线表来汇总统计数据，并输出到多种不同的格式。",
+    "date": "2023-12-30",
+    "timestamp": 1703939558
+  },
+  {
+    "title": "【PowerBI】Deneb教程(1)高亮折线图",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247483905&idx=1&sn=514f7f71c7e1c79688aa3a02edf62d65&chksm=c365b3abf4123abd9ebff77785791e49d2428055f3fa62cb69fb5b3e3b1506a35de6a0b648c5#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwpyBiaz3pNiawIcvRGiaSJRp6pK8mPv0mYAG1mnclaD3GDmdp7jImgs16Naof7aDcicCric5JewvOiaVdFA/0?wx_fmt=jpeg",
+    "digest": "用Deneb构建悬浮高亮折线图",
+    "date": "2023-12-23",
+    "timestamp": 1703324819
+  },
+  {
+    "title": "【PowerBI】超越原生，使用Deneb构建属于你的视觉对象",
+    "link": "http://mp.weixin.qq.com/s?__biz=Mzk0ODYxMTI2OQ==&mid=2247483888&idx=1&sn=3b7adac74566dd93c223f898b0774e56&chksm=c365b05af412394cb7e8e768b2576150ac95507818d19512a565c79b17fffb84fca68d6a7f52#rd",
+    "cover": "https://mmbiz.qlogo.cn/sz_mmbiz_jpg/QZ70XrLmdwoepsVTo2LMniaZ33RAbkQUSCWxZjlgPGeKpuvbnxNkcGYak4kyVC7JYNicVVqfazxdedxU4iag0bEvw/0?wx_fmt=jpeg",
+    "digest": "Power BI提供了许多内置的图表类型，让你可以轻松地展示你的数据洞察。有时候你可能想要创建一些更个性化的、更符合你的需求的图表，而Power BI的默认选项可能无法满足你。这时候，你可以使用Deneb这个神奇的自定义视觉，来实现你的想象",
+    "date": "2023-11-26",
+    "timestamp": 1700971715
+  }
+]
