@@ -1,11 +1,11 @@
 {
   "version": 20260110, 
   "pageTitle": "Nexus 社区 & 支持",
-  "intro": "Nexus 是一个持续进化的 Power BI 辅助工具。我们致力于提高数据分析师的开发效率。",
+  "intro": "Nexus 是一个持续进化的 Power BI 辅助工具，由不止BI团队开发。我们致力于提高数据分析师的开发效率。",
   "promotion": {
     "title": "🚀 加入「不止BI」知识星球",
     "highlight": "获取本工具所有【案例看板】源文件",
-    "desc": "加入星球您将获得：\n1. Nexus 工具内的所有 PBI 案例源文件 (.pbix)\n2. 独家自定义视觉对象与 DAX 模板\n3. 优先解答与技术支持\n4. 海量 Power BI 学习资源库",
+    "desc": "加入星球您将获得：\n1. Nexus 工具内的所有 PBI 案例源文件 (.pbix)\n2. 独家自定义视觉对象与 DAX 模板\n3. 优先解答与技术支持",
     "btnText": "查看详情"
   },
   "cards": [
