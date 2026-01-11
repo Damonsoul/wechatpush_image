@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <!-- 定义光感渐变，让方块看起来有质感 -->
+    <linearGradient id="blueFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7ED8FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D9CDB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FD9A96;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EB5757;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B794F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#805FF3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 阴影，增加悬浮感 -->
+  <ellipse cx="128" cy="230" rx="60" ry="10" fill="#000" opacity="0.15"/>
+
+  <!-- 左侧面 (蓝色 - 数据基础) -->
+  <path d="M128 140 L40 90 L40 180 L128 230 Z" fill="url(#blueFace)" />
+  
+  <!-- 右侧面 (橙色 - 展现/日期) -->
+  <path d="M128 140 L216 90 L216 180 L128 230 Z" fill="url(#orangeFace)" />
+
+  <!-- 顶面 (紫色 - AI核心) -->
+  <!-- 这是一个悬浮的板块，稍微往上抬了一点，象征升级/进化 -->
+  <path d="M128 120 L216 70 L128 20 L40 70 Z" fill="url(#purpleFace)" />
+  
+  <!-- 顶面上的装饰：象征连接/Nexus的节点 -->
+  <circle cx="128" cy="70" r="15" fill="white" opacity="0.3"/>
+  <path d="M90 91 L128 70 L166 91" stroke="white" stroke-width="4" stroke-opacity="0.3" fill="none"/>
+  
+  <!-- 侧面细节：代表代码行或数据层 -->
+  <path d="M60 120 L100 143" stroke="white" stroke-width="4" stroke-opacity="0.4" stroke-linecap="round"/>
+  <path d="M60 140 L90 157" stroke="white" stroke-width="4" stroke-opacity="0.4" stroke-linecap="round"/>
+  
+  <path d="M196 120 L156 143" stroke="white" stroke-width="4" stroke-opacity="0.4" stroke-linecap="round"/>
+  <path d="M196 140 L166 157" stroke="white" stroke-width="4" stroke-opacity="0.4" stroke-linecap="round"/>
+
+</svg>
