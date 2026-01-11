@@ -1,23 +1,30 @@
 {
-  "intro": "这里精选了 Power BI 行业经典案例，包含零售、财务、供应链等多个领域的最佳实践。点击下方标签切换查看不同看板。",
+  "intro": "这里展示了一些精选模板示例即自定义视觉对象使用展示，加入不止BI知识星球即可获取视觉对象订阅及模板源文件。点击下方标签切换查看不同看板。",
   "last_global_update": "2024-01-20",
   "dashboards": [
     {
-      "id": "retail_sample",
-      "name": "零售分析案例",
+      "id": "pbiviz",
+      "name": "视觉对象使用案例",
       "url": "https://app.powerbi.com/view?r=eyJrIjoiYzg2ZjU2ODYtZDk0OC00MDM1LTg1MTYtOGFjZDBjNGJlMGY1IiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
-      "updated_at": "2024-01-20"
+      "updated_at": "2025-12-20"
     },
     {
       "id": "finance_sample",
       "name": "财务报表模板",
-      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzg2ZjU2ODYtZDk0OC00MDM1LTg1MTYtOGFjZDBjNGJlMGY1IiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
-      "updated_at": "2023-12-01"
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzY1MWM4MGMtYzQ5MC00ZGEyLWE5ZWYtYWQwYTg1MzI5MmVjIiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
+      "updated_at": "2025-12-01"
     },
     {
-      "id": "supply_chain",
-      "name": "供应链可视化",
-      "url": "https://app.powerbi.com/view?r=eyJrIjoiYzg2ZjU2ODYtZDk0OC00MDM1LTg1MTYtOGFjZDBjNGJlMGY1IiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
+      "id": "web_login",
+      "name": "金融分析模板",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiOGI0OWIyYmQtNzcyNi00ZWQyLTk1NmEtMGQ3YmI3NDRmZDBkIiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
+      "updated_at": "2024-10-01"
+    }
+    ,
+    {
+      "id": "web_login",
+      "name": "公网权限控制模板",
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiMjc3ZDAyNDQtMWQ3NS00ZGQxLWE5MTUtZDBiMjYyZDgzNDFkIiwidCI6ImY5YmVjYjFkLTU4MDktNDQzNy1hODQ5LThhY2ExMTJmNDU3ZiIsImMiOjEwfQ%3D%3D",
       "updated_at": "2024-01-15"
     }
   ]
