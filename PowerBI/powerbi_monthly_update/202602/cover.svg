@@ -1,0 +1,54 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: Clipboard Icon (Paste Action) -->
+<g filter="url(#card-shadow)" transform="rotate(-5, 150, 191)">
+    <rect x="100" y="100" width="140" height="180" rx="12" fill="white"/>
+    <!-- Clip -->
+    <path d="M140 100 V90 A10 10 0 0 1 150 80 H190 A10 10 0 0 1 200 90 V100" fill="#343A40"/>
+    <rect x="130" y="100" width="80" height="20" rx="4" fill="#495057"/>
+    <!-- Lines -->
+    <rect x="120" y="140" width="100" height="8" rx="4" fill="#E9ECEF"/>
+    <rect x="120" y="160" width="80" height="8" rx="4" fill="#E9ECEF"/>
+    <rect x="120" y="180" width="100" height="8" rx="4" fill="#E9ECEF"/>
+    <rect x="120" y="200" width="60" height="8" rx="4" fill="#E9ECEF"/>
+    <!-- Green Check -->
+    <circle cx="200" cy="240" r="20" fill="#107C10"/>
+    <path d="M190 240 L196 246 L210 232" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- Right: Code Block (DAX) -->
+<g filter="url(#card-shadow)" transform="rotate(5, 750, 191)">
+    <rect x="660" y="110" width="160" height="140" rx="12" fill="#1E293B"/>
+    <text x="680" y="140" font-family="'Consolas', monospace" font-size="14" fill="#569CD6">NAMEOF</text>
+    <text x="680" y="160" font-family="'Consolas', monospace" font-size="14" fill="#C586C0">TABLEOF</text>
+    <text x="680" y="180" font-family="'Consolas', monospace" font-size="14" fill="#9CDCFE">...</text>
+    <rect x="740" y="200" width="60" height="24" rx="4" fill="#F2C811"/>
+    <text x="770" y="217" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#343A40">DAX</text>
+</g>
+
+<!-- Center Title -->
+<g filter="url(#card-shadow)">
+    <rect x="250" y="121" width="400" height="140" rx="20" fill="white"/>
+    <text x="450" y="170" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#339AF0" font-weight="bold" letter-spacing="2">FEATURE UPDATE</text>
+    <text x="450" y="220" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">PowerBI2月功能更新</text>
+</g>
+
+
+</svg>
