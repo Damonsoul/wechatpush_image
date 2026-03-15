@@ -1,0 +1,85 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- 背景与网格 -->
+<rect width="900" height="383" fill="#F8F9FA"/>
+<path d="M0 50 H900 M0 100 H900 M0 150 H900 M0 200 H900 M0 250 H900" stroke="#E9ECEF" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M 150 0 V 383 M 300 0 V 383 M 450 0 V 383 M 600 0 V 383 M 750 0 V 383" stroke="#E9ECEF" stroke-width="1" stroke-dasharray="4 4"/>
+
+<defs>
+    <!-- 卡片与标签的毛玻璃阴影 -->
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer><feFuncA type="linear" slope="0.1"/></feComponentTransfer>
+        <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+</defs>
+
+<!-- === IBCS 风格图表区域 === -->
+<g transform="translate(230, 40)">
+    <!-- X 轴基准线 -->
+    <line x1="0" y1="180" x2="440" y2="180" stroke="#343A40" stroke-width="2"/>
+
+    <!-- 数据组 1 (实际 > 计划：正向差异绿色) -->
+    <g>
+        <!-- PL (Plan) 空心柱 -->
+        <rect x="30" y="100" width="34" height="80" fill="#F8F9FA" stroke="#ADB5BD" stroke-width="2"/>
+        <!-- AC (Actual) 实心柱 -->
+        <rect x="42" y="60" width="34" height="120" fill="#343A40"/>
+        <!-- 绝对差异柱 (正向绿色) -->
+        <rect x="76" y="60" width="12" height="40" fill="#20C997"/>
+        <!-- 相对差异大头针 (Pin) -->
+        <line x1="60" y1="50" x2="60" y2="15" stroke="#20C997" stroke-width="2"/>
+        <circle cx="60" cy="15" r="5" fill="#20C997"/>
+        <!-- 数值标签 (虚构) -->
+        <text x="60" y="5" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#20C997" font-weight="bold">+15%</text>
+    </g>
+
+    <!-- 数据组 2 (实际 < 计划：负向差异红色) -->
+    <g transform="translate(110, 0)">
+        <rect x="30" y="50" width="34" height="130" fill="#F8F9FA" stroke="#ADB5BD" stroke-width="2"/>
+        <rect x="42" y="80" width="34" height="100" fill="#343A40"/>
+        <rect x="76" y="50" width="12" height="30" fill="#FF6B6B"/>
+        <line x1="60" y1="90" x2="60" y2="115" stroke="#FF6B6B" stroke-width="2"/>
+        <circle cx="60" cy="115" r="5" fill="#FF6B6B"/>
+        <text x="60" y="132" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#FF6B6B" font-weight="bold">-8%</text>
+    </g>
+
+    <!-- 数据组 3 (实际远大于计划) -->
+    <g transform="translate(220, 0)">
+        <rect x="30" y="110" width="34" height="70" fill="#F8F9FA" stroke="#ADB5BD" stroke-width="2"/>
+        <rect x="42" y="30" width="34" height="150" fill="#343A40"/>
+        <rect x="76" y="30" width="12" height="80" fill="#20C997"/>
+        <line x1="60" y1="20" x2="60" y2="-25" stroke="#20C997" stroke-width="2"/>
+        <circle cx="60" cy="-25" r="5" fill="#20C997"/>
+        <text x="60" y="-35" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#20C997" font-weight="bold">+35%</text>
+    </g>
+
+    <!-- 数据组 4 (微降) -->
+    <g transform="translate(330, 0)">
+        <rect x="30" y="60" width="34" height="120" fill="#F8F9FA" stroke="#ADB5BD" stroke-width="2"/>
+        <rect x="42" y="70" width="34" height="110" fill="#343A40"/>
+        <rect x="76" y="60" width="12" height="10" fill="#FF6B6B"/>
+        <line x1="60" y1="80" x2="60" y2="95" stroke="#FF6B6B" stroke-width="2"/>
+        <circle cx="60" cy="95" r="5" fill="#FF6B6B"/>
+    </g>
+</g>
+
+<!-- === 底部主标题卡片 (毛玻璃效果) === -->
+<g filter="url(#card-shadow)">
+    <rect x="180" y="270" width="540" height="90" rx="16" fill="white" fill-opacity="0.95" stroke="white" stroke-width="2"/>
+    <text x="450" y="305" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#339AF0" font-weight="bold" letter-spacing="2">NEXUS 一键安装 · 纯 DAX + SVG</text>
+    <text x="450" y="340" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="32" fill="#212529" font-weight="900">POWER BI 标准 IBCS 商业图表</text>
+</g>
+
+<!-- === 装饰微章标签 === -->
+<g transform="translate(680, 255) rotate(12)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="120" height="32" rx="16" fill="#FFD43B"/>
+    <text x="60" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#343A40" font-weight="bold">原生组件支持</text>
+</g>
+
+<g transform="translate(140, 250) rotate(-10)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="100" height="32" rx="16" fill="#20C997"/>
+    <text x="50" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">告别第三方</text>
+</g>
+
+</svg>
