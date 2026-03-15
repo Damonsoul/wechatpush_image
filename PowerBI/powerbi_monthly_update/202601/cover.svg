@@ -1,0 +1,56 @@
+
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: Calendar Page -->
+<g filter="url(#card-shadow)" transform="rotate(-5, 150, 191)">
+    <rect x="100" y="100" width="140" height="160" rx="12" fill="white"/>
+    <rect x="100" y="100" width="140" height="40" rx="12" fill="#F2C811"/> <!-- PBI Yellow -->
+    <rect x="100" y="120" width="140" height="20" fill="#F2C811"/> <!-- Square bottom -->
+    <circle cx="120" cy="115" r="5" fill="white"/>
+    <circle cx="220" cy="115" r="5" fill="white"/>
+    <text x="170" y="200" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="48" font-weight="bold" fill="#343A40">01</text>
+    <text x="170" y="230" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#868E96">JAN 2026</text>
+</g>
+
+<!-- Right: Code/Format Icon -->
+<g filter="url(#card-shadow)" transform="rotate(5, 750, 191)">
+    <rect x="660" y="110" width="160" height="140" rx="12" fill="white"/>
+    <rect x="680" y="140" width="80" height="10" rx="2" fill="#E9ECEF"/>
+    <rect x="680" y="160" width="120" height="10" rx="2" fill="#E9ECEF"/>
+    <rect x="680" y="180" width="60" height="10" rx="2" fill="#E9ECEF"/>
+    
+    <!-- PBIR Tag -->
+    <rect x="740" y="210" width="60" height="24" rx="4" fill="#E7F5FF"/>
+    <text x="770" y="226" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#339AF0">PBIR</text>
+</g>
+
+<!-- Center Title -->
+<g filter="url(#card-shadow)">
+    <rect x="250" y="121" width="400" height="140" rx="20" fill="white"/>
+    <text x="450" y="170" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#339AF0" font-weight="bold" letter-spacing="2">MONTHLY UPDATE</text>
+    <text x="450" y="220" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="42" fill="#212529" font-weight="900">PowerBI 1月更新</text>
+</g>
+
+<!-- Decorative Dots -->
+<circle cx="450" cy="285" r="4" fill="#F2C811"/>
+<circle cx="430" cy="285" r="3" fill="#CED4DA"/>
+<circle cx="470" cy="285" r="3" fill="#CED4DA"/>
+
+</svg>
