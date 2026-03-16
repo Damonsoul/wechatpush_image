@@ -1,0 +1,33 @@
+<svg width="100%" max-width="600" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="150" fill="#f8f9fa" rx="10"/>
+  <!-- Inputs -->
+  <rect x="20" y="50" width="80" height="40" rx="5" fill="#e3f2fd" stroke="#2196f3"/>
+  <text x="60" y="75" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">Damon的</text>
+  
+  <rect x="110" y="50" width="80" height="40" rx="5" fill="#e3f2fd" stroke="#2196f3"/>
+  <text x="150" y="75" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">文章</text>
+  
+  <rect x="200" y="50" width="80" height="40" rx="5" fill="#e3f2fd" stroke="#2196f3"/>
+  <text x="240" y="75" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">怎么样？</text>
+
+  <!-- Arrow -->
+  <path d="M 290 70 L 330 70" stroke="#757575" stroke-width="2"/>
+  <polygon points="330,65 340,70 330,75" fill="#757575"/>
+
+  <!-- LLM Box -->
+  <rect x="350" y="30" width="100" height="80" rx="10" fill="#ede7f6" stroke="#673ab7" stroke-width="2"/>
+  <text x="400" y="75" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4527a0">LLM</text>
+
+  <!-- Output Arrow -->
+  <path d="M 460 70 L 500 70" stroke="#757575" stroke-width="2"/>
+  <polygon points="500,65 510,70 500,75" fill="#757575"/>
+
+  <!-- Output -->
+  <rect x="520" y="50" width="60" height="40" rx="5" fill="#e8f5e9" stroke="#4caf50"/>
+  <text x="550" y="75" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">特别</text>
+  
+  <!-- Loop Arrow -->
+  <path d="M 550 40 Q 550 10, 400 10 Q 150 10, 150 40" fill="none" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="145,35 150,45 155,35" fill="#ff9800"/>
+  <text x="350" y="25" font-family="sans-serif" font-size="12" fill="#e65100">塞回输入，继续预测下一个词</text>
+</svg>
