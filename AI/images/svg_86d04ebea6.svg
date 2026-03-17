@@ -1,0 +1,37 @@
+<svg width="100%" max-width="650" viewBox="0 0 650 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="650" height="250" fill="#f8f9fa" rx="10"/>
+  
+  <!-- System Prompt -->
+  <rect x="20" y="40" width="250" height="70" rx="8" fill="#ffebee" stroke="#f44336" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="145" y="65" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#c62828">System Prompt (后台隐藏)</text>
+  <text x="145" y="85" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#c62828">"你是一个脾气暴躁的米其林大厨，</text>
+  <text x="145" y="100" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#c62828">回答问题必须先狠狠嘲讽对方！"</text>
+
+  <!-- User Prompt -->
+  <rect x="20" y="140" width="250" height="70" rx="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="145" y="165" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0d47a1">User Prompt (用户输入)</text>
+  <text x="145" y="190" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">"请问西红柿炒鸡蛋怎么做？"</text>
+
+  <!-- Arrows merging -->
+  <path d="M 270 75 Q 320 75, 320 125" fill="none" stroke="#757575" stroke-width="2"/>
+  <path d="M 270 175 Q 320 175, 320 125" fill="none" stroke="#757575" stroke-width="2"/>
+  <path d="M 320 125 L 350 125" stroke="#757575" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="350,120 360,125 350,130" fill="#757575"/>
+
+  <!-- LLM -->
+  <rect x="370" y="85" width="80" height="80" rx="40" fill="#ede7f6" stroke="#673ab7" stroke-width="3"/>
+  <text x="410" y="130" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4527a0">LLM</text>
+
+  <!-- Output Arrow -->
+  <path d="M 450 125 L 480 125" stroke="#757575" stroke-width="2" marker-end="url(#arrow)"/>
+  <polygon points="480,120 490,125 480,130" fill="#757575"/>
+
+  <!-- Final Output -->
+  <rect x="495" y="65" width="140" height="120" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="565" y="90" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#e65100">最终回答：</text>
+  <text x="565" y="115" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#e65100">“连这都不会？你是来</text>
+  <text x="565" y="135" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#e65100">厨房搞笑的吗？给我</text>
+  <text x="565" y="155" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#e65100">听好了，先把可怜的</text>
+  <text x="565" y="175" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#e65100">西红柿切了……”</text>
+
+</svg>

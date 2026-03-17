@@ -1,0 +1,26 @@
+<svg width="100%" max-width="600" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="250" fill="#f8f9fa" rx="10"/>
+  
+  <!-- Cylinder/Window representation -->
+  <path d="M 150 200 L 150 50 Q 225 30, 300 50 Q 375 30, 450 50 L 450 200 Q 375 220, 300 200 Q 225 220, 150 200 Z" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  
+  <text x="300" y="30" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b5e20">Context Window (上下文窗口限制)</text>
+
+  <!-- Stacked items -->
+  <rect x="160" y="150" width="280" height="40" rx="5" fill="#c8e6c9"/>
+  <text x="300" y="175" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">1. 系统初始设定 (System Prompt)</text>
+
+  <rect x="160" y="105" width="280" height="40" rx="5" fill="#a5d6a7"/>
+  <text x="300" y="130" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">2. 之前的几十轮历史对话记录</text>
+
+  <rect x="160" y="60" width="280" height="40" rx="5" fill="#81c784"/>
+  <text x="300" y="85" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">3. 你刚刚发出的最新提问</text>
+
+  <!-- Indicator -->
+  <path d="M 470 200 L 470 50" stroke="#f44336" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 460 200 L 480 200" stroke="#f44336" stroke-width="2"/>
+  <path d="M 460 50 L 480 50" stroke="#f44336" stroke-width="2"/>
+  <text x="530" y="130" font-family="sans-serif" font-size="14" fill="#d32f2f">容量上限</text>
+  <text x="530" y="150" font-family="sans-serif" font-size="12" fill="#d32f2f">(如 128K Tokens)</text>
+
+</svg>
