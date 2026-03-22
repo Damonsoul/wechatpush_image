@@ -1,0 +1,126 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Background -->
+<rect width="900" height="383" fill="#F8F9FA"/>
+
+<defs>
+    <!-- 渐变流向线：从紫色的 LLM 渐变到红色的 Agent -->
+    <linearGradient id="ai-flow-gradient" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#339AF0"/>
+        <stop offset="30%" stop-color="#845EF7"/>
+        <stop offset="70%" stop-color="#20C997"/>
+        <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+
+    <!-- 阴影滤镜：用于卡片、节点和 Tooltip -->
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.12"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    
+    <!-- 发光滤镜：用于突出核心节点 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="4" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+</defs>
+
+<!-- === THE MAP GRAPHIC (Architecture & Trajectories) === -->
+<g>
+    <!-- 背景极简网格与代码符号 (暗示工程底层) -->
+    <g stroke="#E9ECEF" stroke-width="1" stroke-dasharray="4 4">
+        <path d="M 0 50 H 900 M 0 100 H 900 M 0 150 H 900 M 0 200 H 900 M 0 250 H 900"/>
+        <path d="M 150 0 V 383 M 300 0 V 383 M 450 0 V 383 M 600 0 V 383 M 750 0 V 383"/>
+    </g>
+    <!-- 背景浮动符号 -->
+    <text x="70" y="80" font-family="monospace" font-size="24" fill="#DEE2E6" font-weight="bold">{ }</text>
+    <text x="820" y="120" font-family="monospace" font-size="24" fill="#DEE2E6" font-weight="bold">&lt;/&gt;</text>
+    <text x="380" y="240" font-family="monospace" font-size="24" fill="#DEE2E6" font-weight="bold">[ ]</text>
+
+    <!-- 1. Tool 工具调用分支线 (虚线代表外部 API 交互) -->
+    <path d="M 280 180 Q 350 260 450 250 T 720 160" fill="none" stroke="#ADB5BD" stroke-width="3" stroke-dasharray="6 4" />
+    <circle cx="450" cy="250" r="4" fill="#868E96" stroke="#F8F9FA" stroke-width="2"/>
+    <text x="450" y="275" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#868E96">Tool (外部天气/股票API)</text>
+
+    <!-- 2. 主干贝塞尔流向曲线 (贯穿全局的进化路径) -->
+    <!-- M Token(100, 140) -> LLM(280, 180) -> MCP(500, 100) -> Agent(720, 160) -->
+    <path d="M 100 140 C 180 140, 200 180, 280 180 C 400 180, 400 100, 500 100 C 600 100, 640 160, 720 160" fill="none" stroke="url(#ai-flow-gradient)" stroke-width="7" opacity="0.85"/>
+    <path d="M 100 140 C 180 140, 200 180, 280 180 C 400 180, 400 100, 500 100 C 600 100, 640 160, 720 160" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="10 10" opacity="0.9"/>
+
+    <!-- 3. 核心概念节点元素 -->
+    
+    <!-- Node 1: Token (数据切片) - 蓝色 -->
+    <circle cx="100" cy="140" r="12" fill="#339AF0" stroke="#FFFFFF" stroke-width="3" filter="url(#card-shadow)"/>
+    <text x="100" y="115" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#495057" font-weight="bold">Token (切片)</text>
+    <rect x="75" y="155" width="50" height="20" rx="4" fill="#E3F2FD"/>
+    <text x="100" y="170" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#1864AB">通用货币</text>
+
+    <!-- Node 2: LLM (大模型引擎) - 紫色 -->
+    <!-- Context Window 虚线圈 -->
+    <circle cx="280" cy="180" r="45" fill="none" stroke="#845EF7" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+    <text x="280" y="125" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#845EF7">Context Window (上下文)</text>
+    
+    <circle cx="280" cy="180" r="28" fill="none" stroke="#845EF7" stroke-width="1" opacity="0.2"/>
+    <circle cx="280" cy="180" r="16" fill="#845EF7" stroke="#FFFFFF" stroke-width="3" filter="url(#card-shadow)"/>
+    <circle cx="280" cy="180" r="6" fill="#FFFFFF"/>
+    <text x="280" y="245" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#495057" font-weight="bold">LLM (大语言模型)</text>
+    
+    <!-- Node 3: MCP (统一协议) - 绿色 -->
+    <rect x="475" y="75" width="50" height="50" rx="12" fill="none" stroke="#20C997" stroke-width="1" opacity="0.4"/>
+    <circle cx="500" cy="100" r="16" fill="#20C997" stroke="#FFFFFF" stroke-width="3" filter="url(#card-shadow)"/>
+    <path d="M 495 95 L 505 105 M 505 95 L 495 105" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <text x="500" y="60" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#495057" font-weight="bold">MCP 协议</text>
+    <rect x="465" y="125" width="70" height="20" rx="4" fill="#E6FCF5"/>
+    <text x="500" y="140" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#087F5B">统一标准接口</text>
+
+    <!-- Node 4: Agent (智能体) - 红色 -->
+    <!-- 发光涟漪 -->
+    <circle cx="720" cy="160" r="32" fill="none" stroke="#FF6B6B" stroke-width="1" opacity="0.3"/>
+    <circle cx="720" cy="160" r="18" fill="#FF6B6B" stroke="#FFFFFF" stroke-width="3" filter="url(#card-shadow)"/>
+    <circle cx="720" cy="160" r="8" fill="#FFFFFF"/>
+    <text x="720" y="215" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#495057" font-weight="bold">Agent (全自动智能体)</text>
+    <rect x="680" y="225" width="80" height="20" rx="4" fill="#FFF5F5"/>
+    <text x="720" y="240" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#E03131">Agent Skill 加持</text>
+
+    <!-- 4. 悬浮提示框 (Tooltip - 暗色毛玻璃效果) -->
+    <g transform="translate(560, 30)" filter="url(#card-shadow)">
+        <rect x="0" y="0" width="165" height="70" rx="8" fill="#212529" fill-opacity="0.9"/>
+        <rect x="0" y="0" width="165" height="70" rx="8" fill="none" stroke="#495057" stroke-width="1"/>
+        
+        <text x="16" y="24" font-family="'Segoe UI', sans-serif" font-size="13" fill="#F8F9FA" font-weight="bold">🤖 自主思考与执行</text>
+        <line x1="16" y1="34" x2="149" y2="34" stroke="#495057" stroke-width="1"/>
+        <text x="16" y="54" font-family="'Segoe UI', sans-serif" font-size="11" fill="#ADB5BD">核心特征:</text>
+        <text x="70" y="54" font-family="'Segoe UI', sans-serif" font-size="12" fill="#FFD43B" font-weight="bold">拆解 &amp; 循环</text>
+    </g>
+</g>
+
+<!-- === TITLE CARD (Bottom Center - Glassmorphism Light) === -->
+<g filter="url(#card-shadow)">
+    <!-- White semi-transparent card -->
+    <rect x="180" y="270" width="540" height="90" rx="16" fill="white" fill-opacity="0.9" stroke="white" stroke-width="2"/>
+    
+    <!-- Subtitle / Tagline -->
+    <text x="450" y="305" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#845EF7" font-weight="bold" letter-spacing="2">拒绝谜语人 · 扒开大模型底层的工程逻辑</text>
+    
+    <!-- Main Title -->
+    <text x="450" y="340" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="28" fill="#212529" font-weight="900">一文讲透 LLM, Token, MCP 与 Agent</text>
+</g>
+
+<!-- Decorative Badges -->
+<g transform="translate(680, 255) rotate(10)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="100" height="32" rx="16" fill="#FFD43B"/>
+    <text x="50" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#343A40" font-weight="bold">通俗易懂</text>
+</g>
+
+<g transform="translate(130, 260) rotate(-12)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="110" height="32" rx="16" fill="#339AF0"/>
+    <text x="55" y="21" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">硬核图解</text>
+</g>
+
+</svg>
