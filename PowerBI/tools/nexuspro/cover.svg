@@ -1,0 +1,100 @@
+<svg width="100%" max-width="900" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Background -->
+<rect width="900" height="383" fill="#F8F9FA"/>
+
+<defs>
+    <!-- 传统流向渐变 (繁琐、警告) -->
+    <linearGradient id="old-flow" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#ADB5BD"/>
+        <stop offset="100%" stop-color="#FA5252"/>
+    </linearGradient>
+
+    <!-- Nexus Pro 极简流向渐变 (智能、顺畅) -->
+    <linearGradient id="nexus-flow" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#339AF0"/>
+        <stop offset="50%" stop-color="#845EF7"/>
+        <stop offset="100%" stop-color="#20C997"/>
+    </linearGradient>
+
+    <!-- 阴影滤镜 -->
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.12"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- 背景极简网格 -->
+<g stroke="#E9ECEF" stroke-width="1" stroke-dasharray="4 4">
+    <path d="M 0 50 H 900 M 0 100 H 900 M 0 150 H 900 M 0 200 H 900 M 0 250 H 900"/>
+    <path d="M 150 0 V 383 M 300 0 V 383 M 450 0 V 383 M 600 0 V 383 M 750 0 V 383"/>
+</g>
+
+<!-- === 上半部分：传统的痛苦方案 === -->
+<path d="M 150 90 L 300 90 L 450 90 L 600 90 L 750 140" fill="none" stroke="url(#old-flow)" stroke-width="4" stroke-dasharray="8 6" opacity="0.6"/>
+
+<rect x="250" y="70" width="120" height="40" rx="6" fill="#FFF5F5" stroke="#FA5252" stroke-width="2"/>
+<text x="310" y="95" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#E03131" font-weight="bold">查文档手搓 DAX</text>
+
+<rect x="420" y="70" width="120" height="40" rx="6" fill="#FFF5F5" stroke="#FA5252" stroke-width="2"/>
+<text x="480" y="95" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#E03131" font-weight="bold">逐个修改度量值</text>
+
+<rect x="590" y="70" width="120" height="40" rx="6" fill="#FFF5F5" stroke="#FA5252" stroke-width="2"/>
+<text x="650" y="95" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#E03131" font-weight="bold">手工截图写报告</text>
+
+<text x="480" y="55" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#868E96">传统 PBI 开发：语法频报错、模型维护繁琐、写报告极耗时</text>
+
+<!-- === 下半部分：Nexus 智能方案 === -->
+<path d="M 150 160 Q 300 240 500 240 T 750 160" fill="none" stroke="url(#nexus-flow)" stroke-width="8" opacity="0.85"/>
+<path d="M 150 160 Q 300 240 500 240 T 750 160" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="10 10" opacity="0.9"/>
+
+<!-- 起点：自然语言需求 -->
+<circle cx="150" cy="150" r="30" fill="#F8F9FA" stroke="#339AF0" stroke-width="4" filter="url(#card-shadow)"/>
+<text x="150" y="157" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#1864AB" font-weight="bold">💬</text>
+<text x="150" y="200" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#495057" font-weight="bold">自然语言需求</text>
+
+<!-- 核心节点：Nexus Pro -->
+<g transform="translate(410, 215)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="180" height="50" rx="8" fill="#845EF7"/>
+    <text x="90" y="22" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#FFFFFF" font-weight="bold">Nexus Pro AI 副驾</text>
+    <text x="90" y="40" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#E5DBFF">自动 DAX / 批量工具 / 智能洞察</text>
+</g>
+
+<!-- 终点：模型交付 -->
+<circle cx="750" cy="150" r="30" fill="#F8F9FA" stroke="#20C997" stroke-width="4" filter="url(#card-shadow)"/>
+<text x="750" y="157" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#2B8A3E">🚀</text>
+<text x="750" y="200" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#495057" font-weight="bold">模型与报告秒级交付</text>
+
+<!-- 悬浮提示框 1 (Tooltip Left) -->
+<g transform="translate(230, 220)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="145" height="45" rx="6" fill="#212529" fill-opacity="0.9"/>
+    <text x="10" y="18" font-family="'Segoe UI', sans-serif" font-size="11" fill="#F8F9FA" font-weight="bold">🤖 AI 智能对齐底层：</text>
+    <text x="10" y="34" font-family="'Segoe UI', sans-serif" font-size="10" fill="#74C0FC">无需发结构，直连模型上下文</text>
+</g>
+
+<!-- 悬浮提示框 2 (Tooltip Right) -->
+<g transform="translate(605, 200)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="135" height="45" rx="6" fill="#212529" fill-opacity="0.9"/>
+    <text x="10" y="18" font-family="'Segoe UI', sans-serif" font-size="11" fill="#F8F9FA" font-weight="bold">📊 全局自动化处理：</text>
+    <text x="10" y="34" font-family="'Segoe UI', sans-serif" font-size="10" fill="#20C997">查真实数据，流式生成报告</text>
+</g>
+
+<!-- === Title Card === -->
+<g filter="url(#card-shadow)">
+    <rect x="180" y="280" width="540" height="85" rx="16" fill="white" fill-opacity="0.9" stroke="white" stroke-width="2"/>
+    <text x="450" y="315" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#845EF7" font-weight="bold" letter-spacing="2">告别手搓 DAX 与低效的模型维护工作</text>
+    <text x="450" y="348" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="26" fill="#212529" font-weight="900">Nexus Pro：一键生成Power BI分析报告</text>
+</g>
+
+<!-- Decorative Badge -->
+<g transform="translate(690, 265) rotate(12)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="100" height="30" rx="15" fill="#FFD43B"/>
+    <text x="50" y="20" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#343A40" font-weight="bold">效率革命</text>
+</g>
+</svg>
