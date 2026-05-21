@@ -1,0 +1,67 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: Visual Layout (Represents Visual Calculations & Custom Totals) -->
+<g filter="url(#card-shadow)" transform="rotate(-5, 150, 191)">
+    <rect x="90" y="100" width="160" height="180" rx="12" fill="white"/>
+    <!-- Table Header -->
+    <rect x="105" y="115" width="130" height="24" rx="4" fill="#495057"/>
+    <!-- Data Rows -->
+    <rect x="105" y="150" width="85" height="16" rx="4" fill="#E9ECEF"/>
+    <rect x="200" y="150" width="35" height="16" rx="4" fill="#E9ECEF"/>
+    <rect x="105" y="176" width="85" height="16" rx="4" fill="#E9ECEF"/>
+    <rect x="200" y="176" width="35" height="16" rx="4" fill="#E9ECEF"/>
+    <rect x="105" y="202" width="85" height="16" rx="4" fill="#E9ECEF"/>
+    <rect x="200" y="202" width="35" height="16" rx="4" fill="#E9ECEF"/>
+    <!-- Custom Total / Calc Row Highlighted -->
+    <rect x="105" y="235" width="85" height="24" rx="4" fill="#339AF0"/>
+    <rect x="200" y="235" width="35" height="24" rx="4" fill="#339AF0"/>
+    <!-- Formula 'fx' indicator -->
+    <text x="147" y="253" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="white">fx</text>
+</g>
+
+<!-- Right: Stacked Cards (Represents Desktop Version History) -->
+<g filter="url(#card-shadow)" transform="rotate(5, 750, 191)">
+    <!-- Historical Versions (Offset Backgrounds) -->
+    <rect x="680" y="90" width="140" height="160" rx="12" fill="#94A3B8" opacity="0.3"/>
+    <rect x="665" y="105" width="140" height="160" rx="12" fill="#64748B" opacity="0.5"/>
+    
+    <!-- Current Version -->
+    <rect x="650" y="120" width="140" height="160" rx="12" fill="#1E293B"/>
+    <!-- Document Lines -->
+    <rect x="670" y="140" width="100" height="12" rx="4" fill="#339AF0"/>
+    <rect x="670" y="165" width="70" height="8" rx="4" fill="#475569"/>
+    <rect x="670" y="185" width="50" height="8" rx="4" fill="#475569"/>
+    <rect x="670" y="205" width="80" height="8" rx="4" fill="#475569"/>
+    
+    <!-- Version Label & Clock Icon -->
+    <rect x="730" y="235" width="40" height="24" rx="4" fill="#F2C811"/>
+    <text x="750" y="252" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#343A40">v2.0</text>
+    <circle cx="705" cy="247" r="12" fill="none" stroke="#F2C811" stroke-width="2"/>
+    <path d="M705 241 V247 H710" stroke="#F2C811" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+
+<!-- Center Title -->
+<g filter="url(#card-shadow)">
+    <rect x="250" y="121" width="400" height="140" rx="20" fill="white"/>
+    <text x="450" y="170" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#339AF0" font-weight="bold" letter-spacing="2">MAY 2026 UPDATE</text>
+    <text x="450" y="220" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">Power BI 5月功能更新</text>
+</g>
+
+</svg>
