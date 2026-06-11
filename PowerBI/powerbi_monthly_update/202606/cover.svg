@@ -1,0 +1,77 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Left: DAX UDF Card (Represents DAX User-Defined Functions GA) -->
+<g filter="url(#card-shadow)" transform="rotate(-5, 150, 191)">
+    <rect x="90" y="100" width="160" height="180" rx="12" fill="white"/>
+    <!-- Code Header Bar -->
+    <rect x="90" y="100" width="160" height="30" rx="12" fill="#1E293B"/>
+    <rect x="90" y="118" width="160" height="12" fill="#1E293B"/>
+    <!-- Dots -->
+    <circle cx="108" cy="115" r="4" fill="#EF4444"/>
+    <circle cx="122" cy="115" r="4" fill="#F2C811"/>
+    <circle cx="136" cy="115" r="4" fill="#22C55E"/>
+    <!-- Code Lines -->
+    <rect x="105" y="145" width="55" height="8" rx="4" fill="#339AF0"/>
+    <rect x="165" y="145" width="40" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="115" y="163" width="70" height="8" rx="4" fill="#F2C811"/>
+    <rect x="190" y="163" width="30" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="115" y="181" width="45" height="8" rx="4" fill="#22C55E"/>
+    <rect x="165" y="181" width="50" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="115" y="199" width="80" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="105" y="217" width="30" height="8" rx="4" fill="#339AF0"/>
+    <!-- UDF Badge -->
+    <rect x="150" y="240" width="50" height="24" rx="4" fill="#22C55E"/>
+    <text x="175" y="257" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="white">UDF</text>
+    <!-- GA Badge -->
+    <rect x="105" y="240" width="35" height="24" rx="4" fill="#339AF0"/>
+    <text x="122" y="257" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" fill="white">GA</text>
+</g>
+
+<!-- Right: Shape Map Card (Represents Shape Map GA) -->
+<g filter="url(#card-shadow)" transform="rotate(5, 750, 191)">
+    <rect x="650" y="100" width="160" height="180" rx="12" fill="white"/>
+    <!-- Map Area -->
+    <rect x="660" y="110" width="140" height="120" rx="8" fill="#E0F2FE"/>
+    <!-- Abstract map shapes -->
+    <path d="M680 140 L700 125 L720 135 L730 130 L750 140 L745 160 L730 165 L720 175 L700 170 L685 165 Z" fill="#339AF0" opacity="0.6"/>
+    <path d="M720 145 L740 140 L755 150 L750 170 L735 175 L725 165 Z" fill="#0EA5E9" opacity="0.4"/>
+    <path d="M690 155 L705 150 L715 158 L710 170 L695 172 Z" fill="#7DD3FC" opacity="0.5"/>
+    <!-- Color Legend -->
+    <rect x="670" y="240" width="16" height="10" rx="2" fill="#339AF0"/>
+    <rect x="692" y="240" width="16" height="10" rx="2" fill="#7DD3FC"/>
+    <rect x="714" y="240" width="16" height="10" rx="2" fill="#BAE6FD"/>
+    <!-- GA Badge -->
+    <rect x="735" y="237" width="35" height="18" rx="4" fill="#339AF0"/>
+    <text x="752" y="250" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="bold" fill="white">GA</text>
+    <!-- Selection toolbar hint -->
+    <rect x="670" y="258" width="100" height="12" rx="4" fill="#F1F5F9"/>
+    <rect x="675" y="261" width="12" height="6" rx="2" fill="#94A3B8"/>
+    <rect x="692" y="261" width="12" height="6" rx="2" fill="#94A3B8"/>
+    <rect x="709" y="261" width="12" height="6" rx="2" fill="#94A3B8"/>
+</g>
+
+<!-- Center Title -->
+<g filter="url(#card-shadow)">
+    <rect x="250" y="121" width="400" height="140" rx="20" fill="white"/>
+    <text x="450" y="170" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#339AF0" font-weight="bold" letter-spacing="2">JUNE 2026 UPDATE</text>
+    <text x="450" y="220" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#212529" font-weight="900">Power BI 6月功能更新</text>
+</g>
+
+</svg>

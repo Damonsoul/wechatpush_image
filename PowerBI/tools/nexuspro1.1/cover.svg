@@ -1,0 +1,95 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Background -->
+<rect width="900" height="383" fill="#F8F9FA"/>
+
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#E9ECEF" stroke-width="2" stroke-dasharray="20 20"/>
+
+<defs>
+    <!-- Soft Drop Shadow Filter -->
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="4" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.1"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Connecting Line (Background) -->
+<path d="M220 191 H680" stroke="#E2E8F0" stroke-width="8" stroke-linecap="round"/>
+
+<!-- Left Element: Power BI Concept -->
+<g filter="url(#card-shadow)">
+    <rect x="100" y="110" width="160" height="160" rx="20" fill="white"/>
+    <!-- PBI Bars -->
+    <rect x="135" y="170" width="20" height="60" rx="2" fill="#F2C811"/>
+    <rect x="170" y="140" width="20" height="90" rx="2" fill="#F2C811"/>
+    <rect x="205" y="125" width="20" height="105" rx="2" fill="#F2C811"/>
+    <!-- Icon Label -->
+    <text x="180" y="255" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" fill="#94A3B8" font-weight="bold">MODEL</text>
+</g>
+
+<!-- Right Element: AI Concept -->
+<g filter="url(#card-shadow)">
+    <rect x="640" y="110" width="160" height="160" rx="20" fill="white"/>
+    <!-- AI Nodes -->
+    <circle cx="720" cy="190" r="30" fill="#E7F5FF"/>
+    <circle cx="720" cy="190" r="8" fill="#339AF0"/>
+    <circle cx="680" cy="150" r="6" fill="#339AF0" opacity="0.6"/>
+    <circle cx="760" cy="150" r="6" fill="#339AF0" opacity="0.6"/>
+    <circle cx="680" cy="230" r="6" fill="#339AF0" opacity="0.6"/>
+    <circle cx="760" cy="230" r="6" fill="#339AF0" opacity="0.6"/>
+    <!-- Connections -->
+    <path d="M720 190 L680 150 M720 190 L760 150 M720 190 L680 230 M720 190 L760 230" stroke="#339AF0" stroke-width="2"/>
+    <!-- Icon Label -->
+    <text x="720" y="255" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="14" fill="#94A3B8" font-weight="bold">INTELLIGENCE</text>
+</g>
+
+<!-- Center Title Card -->
+<g filter="url(#card-shadow)">
+    <rect x="210" y="120" width="480" height="140" rx="24" fill="white"/>
+    
+    <!-- Title Text -->
+    <text x="450" y="170" text-anchor="middle" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="18" fill="#868E96" font-weight="bold" letter-spacing="2">NEXUS PRO v1.1.0</text>
+    
+    <!-- Main Text: 深度进化 + 全新 AI -->
+    <text x="450" y="215" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="38" fill="#212529" font-weight="900">
+        PowerBI <tspan fill="#339AF0">×</tspan> 全新 AI
+    </text>
+
+    <!-- Sub Title Text -->
+    <text x="450" y="242" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#ADB5BD" font-weight="600" letter-spacing="1">模型深度管理 · 细粒度安全阀 · 交互式洞察</text>
+</g>
+
+<!-- Floating Feature Badges -->
+
+<!-- Badge 1: 交互式血缘图 -->
+<g transform="translate(180, 80) rotate(-6)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#E7F5FF"/>
+    <text x="70" y="23" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="13" fill="#1C7ED6" font-weight="bold">🕸️ 交互式血缘图</text>
+</g>
+
+<!-- Badge 2: DeepSeek V4 -->
+<g transform="translate(580, 80) rotate(5)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#F3F0FF"/>
+    <text x="70" y="23" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="13" fill="#7048E8" font-weight="bold">🧠 DeepSeek V4</text>
+</g>
+
+<!-- Badge 3: 多层级文件夹 -->
+<g transform="translate(200, 275) rotate(4)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#FFF3BF"/>
+    <text x="70" y="23" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="13" fill="#F08C00" font-weight="bold">📁 多层级文件夹</text>
+</g>
+
+<!-- Badge 4: AI 权限控制 -->
+<g transform="translate(560, 280) rotate(-4)" filter="url(#card-shadow)">
+    <rect x="0" y="0" width="140" height="36" rx="18" fill="#FFE3E3"/>
+    <text x="70" y="23" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="13" fill="#FA5252" font-weight="bold">🛡️ AI 权限控制</text>
+</g>
+
+</svg>
