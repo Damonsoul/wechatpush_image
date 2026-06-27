@@ -1,0 +1,84 @@
+<svg width="100%" max-width="900" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="383">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#FFF7ED"/>
+        </linearGradient>
+        <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFFBEB"/>
+            <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="saas-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.06"/>
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.04"/>
+        </filter>
+        <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#F59E0B"/>
+            <stop offset="50%" stop-color="#EF4444"/>
+            <stop offset="100%" stop-color="#8B5CF6"/>
+        </linearGradient>
+    </defs>
+
+    <rect width="900" height="383" fill="url(#bg-grad)"/>
+    <circle cx="450" cy="190" r="300" fill="url(#center-glow)"/>
+
+    <g transform="translate(180, 50)">
+        <text x="270" y="55" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="36" fill="#0F172A" font-weight="900" letter-spacing="1">
+            2026 Python <tspan fill="url(#title-grad)">画图</tspan>到底选谁
+        </text>
+        <text x="270" y="95" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="20" fill="#64748B" font-weight="500" letter-spacing="1">
+            Plotly · Altair · hvPlot · Seaborn 深度横评
+        </text>
+
+        <!-- Four library cards -->
+        <g transform="translate(30, 130)">
+            <!-- Seaborn card -->
+            <g transform="translate(0, 0)" filter="url(#saas-shadow)">
+                <rect width="90" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+                <rect x="15" y="15" width="60" height="8" rx="4" fill="#0EA5E9"/>
+                <text x="45" y="45" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="12" font-weight="700" fill="#0F172A">Seaborn</text>
+                <text x="45" y="62" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="9" fill="#64748B">统计之美</text>
+                <!-- small bar chart -->
+                <rect x="20" y="75" width="10" height="25" rx="2" fill="#BAE6FD"/>
+                <rect x="35" y="80" width="10" height="20" rx="2" fill="#7DD3FC"/>
+                <rect x="50" y="70" width="10" height="30" rx="2" fill="#38BDF8"/>
+            </g>
+
+            <!-- Plotly card -->
+            <g transform="translate(105, 0)" filter="url(#saas-shadow)">
+                <rect width="90" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+                <rect x="15" y="15" width="60" height="8" rx="4" fill="#8B5CF6"/>
+                <text x="45" y="45" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="12" font-weight="700" fill="#0F172A">Plotly</text>
+                <text x="45" y="62" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="9" fill="#64748B">交互之王</text>
+                <!-- scatter dots -->
+                <circle cx="30" cy="90" r="4" fill="#C4B5FD"/>
+                <circle cx="45" cy="80" r="4" fill="#A78BFA"/>
+                <circle cx="55" cy="95" r="4" fill="#8B5CF6"/>
+                <circle cx="40" cy="100" r="3" fill="#DDD6FE"/>
+            </g>
+
+            <!-- Altair card -->
+            <g transform="translate(210, 0)" filter="url(#saas-shadow)">
+                <rect width="90" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+                <rect x="15" y="15" width="60" height="8" rx="4" fill="#F59E0B"/>
+                <text x="45" y="45" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="12" font-weight="700" fill="#0F172A">Altair</text>
+                <text x="45" y="62" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="9" fill="#64748B">声明优雅</text>
+                <!-- line chart -->
+                <polyline points="20,100 35,80 50,85 65,70" fill="none" stroke="#F59E0B" stroke-width="2"/>
+                <circle cx="35" cy="80" r="3" fill="#FBBF24"/>
+                <circle cx="65" cy="70" r="3" fill="#F59E0B"/>
+            </g>
+
+            <!-- hvPlot card -->
+            <g transform="translate(315, 0)" filter="url(#saas-shadow)">
+                <rect width="90" height="120" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+                <rect x="15" y="15" width="60" height="8" rx="4" fill="#10B981"/>
+                <text x="45" y="45" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="12" font-weight="700" fill="#0F172A">hvPlot</text>
+                <text x="45" y="62" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="9" fill="#64748B">统一入口</text>
+                <!-- area chart -->
+                <path d="M20 100 L35 85 L50 90 L65 70 L75 75 L75 100 Z" fill="#D1FAE5" stroke="#34D399" stroke-width="1"/>
+                <path d="M20 100 L35 85 L50 90 L65 70 L75 75" fill="none" stroke="#10B981" stroke-width="2"/>
+            </g>
+        </g>
+    </g>
+</svg>

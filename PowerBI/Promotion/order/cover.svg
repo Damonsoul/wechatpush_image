@@ -1,0 +1,52 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="383" fill="#F8F9FA"/>
+<!-- Background Grid -->
+<path d="M0 191.5 H900 M450 0 V383" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="10 10"/>
+
+<defs>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+        <feOffset dx="0" dy="8" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncA type="linear" slope="0.12"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- === LEFT: Report Development === -->
+<g filter="url(#card-shadow)">
+    <rect x="100" y="100" width="200" height="180" rx="16" fill="white"/>
+    <rect x="130" y="130" width="20" height="80" rx="4" fill="#F2C811"/>
+    <rect x="160" y="150" width="20" height="60" rx="4" fill="#F2C811" opacity="0.6"/>
+    <rect x="190" y="110" width="20" height="100" rx="4" fill="#F2C811" opacity="0.8"/>
+    <rect x="220" y="160" width="20" height="50" rx="4" fill="#F2C811" opacity="0.4"/>
+    <text x="200" y="250" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#495057" font-weight="bold">报表开发</text>
+</g>
+
+<!-- === RIGHT: Training === -->
+<g filter="url(#card-shadow)">
+    <rect x="600" y="100" width="200" height="180" rx="16" fill="white"/>
+    <!-- Graduation Cap Icon -->
+    <path d="M630 150 L700 120 L770 150 L700 180 Z" fill="#339AF0"/>
+    <path d="M770 150 V180 C770 190 740 200 700 200" stroke="#339AF0" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <rect x="700" y="120" width="4" height="20" fill="#228BE6"/>
+    <text x="700" y="250" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#495057" font-weight="bold">企业培训</text>
+</g>
+
+<!-- === CENTER: Custom Visuals (Hero) === -->
+<g filter="url(#card-shadow)">
+    <rect x="330" y="70" width="240" height="240" rx="20" fill="white"/>
+    <!-- Code Brackets & Gear -->
+    <text x="450" y="180" text-anchor="middle" font-family="'Consolas', monospace" font-size="64" fill="#20C997" font-weight="bold">&lt;/&gt;</text>
+    <circle cx="520" cy="110" r="15" fill="#FF6B6B"/>
+    <text x="450" y="260" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="20" fill="#212529" font-weight="900">视觉对象定制</text>
+</g>
+
+<!-- Title -->
+<text x="450" y="350" text-anchor="middle" font-family="'Microsoft YaHei', sans-serif" font-size="20" fill="#868E96" font-weight="500">专业服务 · 交付信任</text>
+
+</svg>

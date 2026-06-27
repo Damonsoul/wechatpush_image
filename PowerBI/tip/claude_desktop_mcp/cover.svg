@@ -1,0 +1,79 @@
+<svg width="900" height="383" viewBox="0 0 900 383" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="383">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#F0F4FF"/>
+        </linearGradient>
+
+        <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#EFF6FF"/>
+            <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+        </radialGradient>
+
+        <filter id="saas-shadow" x="-5%" y="-5%" width="110%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0F172A" flood-opacity="0.06"/>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="900" height="383" fill="url(#bg-grad)"/>
+    <circle cx="450" cy="191" r="280" fill="url(#center-glow)"/>
+
+    <!-- Main Title: plain text, no tspan -->
+    <text x="450" y="48" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="36" fill="#0F172A" font-weight="900">
+        四毛钱一份 Power BI 分析报告
+    </text>
+
+    <!-- Subtitle -->
+    <text x="450" y="82" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#64748B" font-weight="500">
+        Claude Desktop + MCP 自动分析 &amp; 生成 HTML 报告
+    </text>
+
+    <!-- Dashboard Mock -->
+    <g transform="translate(160, 100)" filter="url(#saas-shadow)">
+        <rect width="400" height="160" rx="10" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1.5"/>
+
+        <!-- Header Bar -->
+        <rect x="0" y="0" width="400" height="30" rx="10" fill="#F8FAFC"/>
+        <rect x="0" y="16" width="400" height="14" fill="#F8FAFC"/>
+        <circle cx="15" cy="15" r="4.5" fill="#EF4444"/>
+        <circle cx="30" cy="15" r="4.5" fill="#F59E0B"/>
+        <circle cx="45" cy="15" r="4.5" fill="#22C55E"/>
+        <rect x="150" y="10" width="100" height="10" rx="5" fill="#E2E8F0"/>
+
+        <!-- Bar Chart -->
+        <rect x="18" y="40" width="175" height="104" rx="4" fill="#FEFCE8"/>
+        <rect x="28" y="102" width="18" height="32" rx="2" fill="#FCD34D"/>
+        <rect x="52" y="82" width="18" height="52" rx="2" fill="#F59E0B"/>
+        <rect x="76" y="64" width="18" height="70" rx="2" fill="#FCD34D"/>
+        <rect x="100" y="72" width="18" height="62" rx="2" fill="#F59E0B"/>
+        <rect x="124" y="52" width="18" height="82" rx="2" fill="#D97706"/>
+        <rect x="148" y="66" width="10" height="68" rx="2" fill="#FCD34D"/>
+
+        <!-- Metric Cards -->
+        <rect x="208" y="40" width="84" height="46" rx="6" fill="#EFF6FF"/>
+        <rect x="216" y="50" width="38" height="7" rx="3.5" fill="#93C5FD"/>
+        <text x="218" y="76" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#1E40AF" font-weight="700">+23%</text>
+
+        <rect x="300" y="40" width="84" height="46" rx="6" fill="#F0FDF4"/>
+        <rect x="308" y="50" width="38" height="7" rx="3.5" fill="#86EFAC"/>
+        <text x="310" y="76" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#166534" font-weight="700">¥4.2M</text>
+
+        <!-- Line Chart -->
+        <rect x="208" y="94" width="176" height="46" rx="6" fill="#FDF2F8"/>
+        <polyline points="218,128 238,121 258,126 278,115 298,119 318,108 338,113 358,104 374,107" fill="none" stroke="#EC4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <polyline points="218,132 238,127 258,131 278,124 298,128 318,120 338,125 358,118 374,120" fill="none" stroke="#F9A8D4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Decorative: AI Robot Icon -->
+    <circle cx="55" cy="310" r="22" fill="#FFFFFF" filter="url(#saas-shadow)"/>
+    <circle cx="55" cy="306" r="7.5" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="49" y="313" width="12" height="5" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="52" cy="306" r="2" fill="#F59E0B"/>
+    <circle cx="58" cy="306" r="2" fill="#F59E0B"/>
+
+    <!-- Decorative: Coin Icon -->
+    <circle cx="760" cy="240" r="26" fill="#FFFFFF" filter="url(#saas-shadow)"/>
+    <circle cx="760" cy="240" r="15" fill="none" stroke="#F59E0B" stroke-width="2.5"/>
+    <text x="760" y="245" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#D97706" font-weight="900">¥</text>
+</svg>
