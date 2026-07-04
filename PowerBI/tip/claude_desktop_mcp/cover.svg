@@ -19,14 +19,14 @@
     <rect width="900" height="383" fill="url(#bg-grad)"/>
     <circle cx="450" cy="191" r="280" fill="url(#center-glow)"/>
 
-    <!-- Main Title: plain text, no tspan -->
+    <!-- Main Title: Highlight "当 Claude 遇上 Power BI" -->
     <text x="450" y="48" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="36" fill="#0F172A" font-weight="900">
-        四毛钱一份 Power BI 分析报告
+        当 Claude 遇上 Power BI
     </text>
 
     <!-- Subtitle -->
     <text x="450" y="82" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#64748B" font-weight="500">
-        Claude Desktop + MCP 自动分析 &amp; 生成 HTML 报告
+        基于 MCP 跨界联动 · 自动分析数据与生成 HTML 报告
     </text>
 
     <!-- Dashboard Mock -->
@@ -72,8 +72,9 @@
     <circle cx="52" cy="306" r="2" fill="#F59E0B"/>
     <circle cx="58" cy="306" r="2" fill="#F59E0B"/>
 
-    <!-- Decorative: Coin Icon -->
+    <!-- Decorative: Database Icon (Replaced Coin Icon) -->
     <circle cx="760" cy="240" r="26" fill="#FFFFFF" filter="url(#saas-shadow)"/>
-    <circle cx="760" cy="240" r="15" fill="none" stroke="#F59E0B" stroke-width="2.5"/>
-    <text x="760" y="245" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#D97706" font-weight="900">¥</text>
+    <ellipse cx="760" cy="232" rx="9" ry="3.5" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <path d="M751,232 V246 C751,249 769,249 769,246 V232" fill="none" stroke="#F59E0B" stroke-width="2"/>
+    <path d="M751,239 C751,242 769,242 769,239" fill="none" stroke="#F59E0B" stroke-width="2"/>
 </svg>
